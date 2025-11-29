@@ -1,40 +1,38 @@
-# Dockerfile (updated)
+# Use full Debian-based Python image so language packs install reliably
 FROM python:3.10
 
-# Prevent Python from writing .pyc files and buffer output (useful for logs)
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONUNBUFFERED=1
+# Keep Python from writing .pyc files and make output unbuffered (good for logs)
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
 
-# Install system dependencies (Tesseract + poppler for PDFs + minimal GL libs)
+WORKDIR /app
+
+# Install system dependencies (Tesseract, poppler) and current Mesa packages
+# Note: libgl1-mesa-glx is obsolete on recent Debian/Ubuntu — use libglx-mesa0 + libgl1-mesa-dri (or libgl1).
 RUN apt-get update \
  && apt-get install -y --no-install-recommends \
       tesseract-ocr \
       tesseract-ocr-eng \
-      libgl1-mesa-glx \
+      libglx-mesa0 \
+      libgl1-mesa-dri \
       libglib2.0-0 \
       poppler-utils \
  && rm -rf /var/lib/apt/lists/*
 
-# Set working directory
-WORKDIR /app
-
-# Copy Python requirements and install
+# Copy and install Python requirements
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
+# Copy app code
 COPY app/ ./app/
 
-# Create necessary dirs and a non-root user, set ownership
+# Create runtime dirs and a non-root user
 RUN mkdir -p /app/temp /app/outputs \
- && useradd --create-home --shell /bin/false appuser \
+ && useradd --create-home --system --shell /usr/sbin/nologin appuser \
  && chown -R appuser:appuser /app
 
-# Switch to non-root user
 USER appuser
 
-# Expose port
 EXPOSE 8000
 
-# Start the application
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
