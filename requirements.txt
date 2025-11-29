@@ -9,3 +9,4 @@ Pillow
 google-generativeai
 openai
 anthropic
+pypdf==3.16.0
