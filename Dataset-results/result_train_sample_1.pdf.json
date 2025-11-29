@@ -1,0 +1,280 @@
+{
+  "token_usage": {
+    "prompt_tokens": 1026,
+    "output_tokens": 2661,
+    "total_tokens": 7459,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_1.pdf",
+    "page_count": 2,
+    "document_type": "Bill",
+    "document_title": "DETAIL FINAL BILL",
+    "printed_on": null
+  },
+  "header": {
+    "id": null,
+    "date": null,
+    "vendor_name": "HOSPITAL",
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "2D echocardiography",
+          "quantity": 1.0,
+          "unit_price": 1180.0,
+          "amount": 1180.0
+        },
+        {
+          "description": "USG Whole Abdomen Including Pelvis and Post Void urine",
+          "quantity": 1.0,
+          "unit_price": 640.0,
+          "amount": 640.0
+        },
+        {
+          "description": "X Ray Chest Lateral (one film)",
+          "quantity": 1.0,
+          "unit_price": 184.0,
+          "amount": 184.0
+        },
+        {
+          "description": "BED CHARGE GENERAL WARD",
+          "quantity": 1.0,
+          "unit_price": 1500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "BED CHARGE GENERAL WARD",
+          "quantity": 1.0,
+          "unit_price": 1500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "BED CHARGE GENERAL WARD",
+          "quantity": 1.0,
+          "unit_price": 1500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "BED CHARGE GENERAL WARD",
+          "quantity": 1.0,
+          "unit_price": 1500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "Consultation for Inpatients",
+          "quantity": 2.0,
+          "unit_price": 350.0,
+          "amount": 700.0
+        },
+        {
+          "description": "Consultation for Inpatients",
+          "quantity": 2.0,
+          "unit_price": 350.0,
+          "amount": 700.0
+        },
+        {
+          "description": "Consultation for Inpatients",
+          "quantity": 2.0,
+          "unit_price": 350.0,
+          "amount": 700.0
+        },
+        {
+          "description": "Consultation for Inpatients",
+          "quantity": 1.0,
+          "unit_price": 350.0,
+          "amount": 350.0
+        },
+        {
+          "description": "BLOOD CULTURE & SENSITIVITY",
+          "quantity": 1.0,
+          "unit_price": 368.0,
+          "amount": 368.0
+        },
+        {
+          "description": "BLOOD SUGAR RANDOM (RBS)",
+          "quantity": 1.0,
+          "unit_price": 32.0,
+          "amount": 32.0
+        },
+        {
+          "description": "CBC",
+          "quantity": 1.0,
+          "unit_price": 240.0,
+          "amount": 240.0
+        }
+      ],
+      "page_anomalies": []
+    },
+    {
+      "page_number": 2,
+      "line_items": [
+        {
+          "description": "DENGUE IgM AND IgG",
+          "quantity": 1.0,
+          "unit_price": 640.0,
+          "amount": 640.0
+        },
+        {
+          "description": "DENGUE NS1 ANTIGEN",
+          "quantity": 1.0,
+          "unit_price": 320.0,
+          "amount": 320.0
+        },
+        {
+          "description": "ESR(ERYTHROCYTE SED. RATE)",
+          "quantity": 1.0,
+          "unit_price": 80.0,
+          "amount": 80.0
+        },
+        {
+          "description": "GLYCOSYLATED HAEMOGLOBIN (HBA1C)",
+          "quantity": 1.0,
+          "unit_price": 240.0,
+          "amount": 240.0
+        },
+        {
+          "description": "HBSAG",
+          "quantity": 1.0,
+          "unit_price": 240.0,
+          "amount": 240.0
+        },
+        {
+          "description": "HEPATITIS C VIRUS (HCV)",
+          "quantity": 1.0,
+          "unit_price": 400.0,
+          "amount": 400.0
+        },
+        {
+          "description": "HIV I AND II",
+          "quantity": 1.0,
+          "unit_price": 308.0,
+          "amount": 308.0
+        },
+        {
+          "description": "C-REACTIVE PROTEIN (CRP)",
+          "quantity": 1.0,
+          "unit_price": 240.0,
+          "amount": 240.0
+        },
+        {
+          "description": "LIPID PROFILE",
+          "quantity": 1.0,
+          "unit_price": 392.0,
+          "amount": 392.0
+        },
+        {
+          "description": "LIVER FUNCTION TEST (LFT)",
+          "quantity": 1.0,
+          "unit_price": 400.0,
+          "amount": 400.0
+        },
+        {
+          "description": "MP SCREEN (MALARIA RAPID CARD)",
+          "quantity": 1.0,
+          "unit_price": 252.0,
+          "amount": 252.0
+        },
+        {
+          "description": "PROCALCITONIN",
+          "quantity": 1.0,
+          "unit_price": 2070.0,
+          "amount": 2070.0
+        },
+        {
+          "description": "RFT/KIDNEY FUNCTION TEST(Kft)",
+          "quantity": 1.0,
+          "unit_price": 400.0,
+          "amount": 400.0
+        },
+        {
+          "description": "SERUM AMYLASE",
+          "quantity": 1.0,
+          "unit_price": 240.0,
+          "amount": 240.0
+        },
+        {
+          "description": "SERUM LIPASE",
+          "quantity": 1.0,
+          "unit_price": 320.0,
+          "amount": 320.0
+        },
+        {
+          "description": "SERUM VITAMIN B-12 LEVEL",
+          "quantity": 1.0,
+          "unit_price": 480.0,
+          "amount": 480.0
+        },
+        {
+          "description": "TYPHIDOT IgG IgM",
+          "quantity": 1.0,
+          "unit_price": 320.0,
+          "amount": 320.0
+        },
+        {
+          "description": "VITAMIN D3 ASSAY",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "WIDAL TEST",
+          "quantity": 1.0,
+          "unit_price": 56.0,
+          "amount": 56.0
+        },
+        {
+          "description": "LIVER FUNCTION TEST (LFT)",
+          "quantity": 1.0,
+          "unit_price": 400.0,
+          "amount": 400.0
+        },
+        {
+          "description": "C-REACTIVE PROTEIN (CRP)",
+          "quantity": 1.0,
+          "unit_price": 240.0,
+          "amount": 240.0
+        },
+        {
+          "description": "KIDNEY FUNCTION TEST (KFT1)",
+          "quantity": 1.0,
+          "unit_price": 480.0,
+          "amount": 480.0
+        },
+        {
+          "description": "CBC",
+          "quantity": 1.0,
+          "unit_price": 240.0,
+          "amount": 240.0
+        },
+        {
+          "description": "PHARMACY CHARGE",
+          "quantity": 0.75,
+          "unit_price": 70491.0,
+          "amount": 52868.25
+        }
+      ],
+      "page_anomalies": []
+    }
+  ],
+  "financials": {
+    "subtotal": 73420.25,
+    "tax": 0.0,
+    "extracted_total": 73420.25,
+    "calculated_total": 73520.25,
+    "is_match": false
+  },
+  "fraud_analysis": {
+    "risk_level": "MEDIUM",
+    "pixel_anomalies_detected": false,
+    "duplicates_detected": false,
+    "flags": [
+      "Math mismatch: Extracted 73420.25 vs Calculated 73520.25"
+    ],
+    "reasoning": "The document appears to be a consistent two-page bill from 'HOSPITAL'. All numerical calculations for line items, section totals, and the grand total are accurate. No visual anomalies like mismatched fonts, misalignments, or pixelation suggesting digital alteration were detected. While fields such as 'Bill No.', 'Bill Date', and 'Patient Name' are left blank, this could indicate a template or sample document rather than an attempt at fraud, as all other data is coherent and internally consistent. There are no duplicate line items in the sense of identical entries for the same service on the same date; rather, certain services (e.g., LFT, CRP, CBC) appear multiple times on different dates, which is normal for a multi-day hospital stay.",
+    "math_mismatch_detected": true
+  }
+}

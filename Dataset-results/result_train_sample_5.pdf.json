@@ -1,0 +1,247 @@
+{
+  "token_usage": {
+    "prompt_tokens": 1299,
+    "output_tokens": 3069,
+    "total_tokens": 11475,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_5.pdf",
+    "page_count": 3,
+    "document_type": "Invoice/Receipt/Bill/Statement",
+    "document_title": null,
+    "printed_on": "01/1./25 13:38:5"
+  },
+  "header": {
+    "id": null,
+    "date": "2025-10-22",
+    "vendor_name": null,
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "MODULAR CUP 43MM",
+          "quantity": 1,
+          "unit_price": 16500.0,
+          "amount": 16500.0
+        },
+        {
+          "description": "INTERNAL HEAD +1.5MM",
+          "quantity": 1,
+          "unit_price": 7500.0,
+          "amount": 7500.0
+        },
+        {
+          "description": "UNCEMENTED FEMORAL STEM 10MM",
+          "quantity": 1,
+          "unit_price": 44500.0,
+          "amount": 44500.0
+        }
+      ],
+      "page_anomalies": [
+        "Document appears to be a fragment, missing top-level header information (vendor, invoice ID, date).",
+        "DRUG LICENCE NO field is empty.",
+        "Financial Summary for Page 1: NET AMOUNT: 68500.00, CGST 2.5%: 1712.50, SGST 2.5%: 1712.50, CGST 5%: 0.00, TOTAL Rs.: 71925.00. (Calculation 68500 + 1712.50 + 1712.50 = 71925.00 is correct for this section)."
+      ]
+    },
+    {
+      "page_number": 2,
+      "line_items": [
+        {
+          "description": "FOLEY CATHETER 14 NO",
+          "quantity": 1,
+          "unit_price": 150.0,
+          "amount": 150.0
+        },
+        {
+          "description": "URO BAG",
+          "quantity": 1,
+          "unit_price": 349.0,
+          "amount": 349.0
+        },
+        {
+          "description": "NEUMOL 100 IV",
+          "quantity": 1,
+          "unit_price": 574.8,
+          "amount": 574.8
+        },
+        {
+          "description": "NEURO 500ML",
+          "quantity": 1,
+          "unit_price": 98.48,
+          "amount": 98.48
+        },
+        {
+          "description": "SAFE CORD RL 500 ML",
+          "quantity": 1,
+          "unit_price": 64.89,
+          "amount": 64.89
+        },
+        {
+          "description": "CEZOSAL 1.5GM INJECTION",
+          "quantity": 2,
+          "unit_price": 628.0,
+          "amount": 1256.0
+        },
+        {
+          "description": "SMJ PANGIND 40MG",
+          "quantity": 2,
+          "unit_price": 56.5,
+          "amount": 113.0
+        },
+        {
+          "description": "JUSTIN-AQ INJ",
+          "quantity": 2,
+          "unit_price": 23.2,
+          "amount": 46.4
+        },
+        {
+          "description": "OMNIVAN 2ML",
+          "quantity": 4,
+          "unit_price": 15.62,
+          "amount": 62.48
+        },
+        {
+          "description": "OMNIVAN 10ML",
+          "quantity": 4,
+          "unit_price": 31.46,
+          "amount": 125.84
+        },
+        {
+          "description": "INTRAFLEX SAFESET(IV SET)",
+          "quantity": 2,
+          "unit_price": 184.0,
+          "amount": 368.0
+        },
+        {
+          "description": "KIT KATH IV CANNULA 20G",
+          "quantity": 1,
+          "unit_price": 198.0,
+          "amount": 198.0
+        },
+        {
+          "description": "IV FIX",
+          "quantity": 1,
+          "unit_price": 95.0,
+          "amount": 95.0
+        },
+        {
+          "description": "VEIN-O LINE 10CM",
+          "quantity": 1,
+          "unit_price": 347.0,
+          "amount": 347.0
+        }
+      ],
+      "page_anomalies": [
+        "Handwritten annotation '15' at the top right corner.",
+        "BILL DATE '22/10/2025' is a future date.",
+        "Printed date '01/1. .s 13:38:4' is malformed and incomplete.",
+        "Significant discrepancy in financial calculations: Sum of 'Amount' column (3948.89) does not match reported SUB (3814.65).",
+        "Further discrepancy: (SUB 3814.65 - DISC 0.18 + TAX 192.75 = 4007.22) does not match NET AMT (3,433.00).",
+        "The 'Amt In Words' (Three Thousand, Four Hundred And Thirty-Three Only) matches the stated 'NET AMT' (3,433.00), despite the numerical inconsistencies with other figures."
+      ]
+    },
+    {
+      "page_number": 3,
+      "line_items": [
+        {
+          "description": "CEZOSAL 1.5GM",
+          "quantity": 1,
+          "unit_price": 628.0,
+          "amount": 628.0
+        },
+        {
+          "description": "INJECTION",
+          "quantity": 1,
+          "unit_price": 628.0,
+          "amount": 628.0
+        },
+        {
+          "description": "PANGARKIND 40MG INJ",
+          "quantity": 1,
+          "unit_price": 57.48,
+          "amount": 57.48
+        },
+        {
+          "description": "JUSTIN-AQ INJ",
+          "quantity": 3,
+          "unit_price": 25.4,
+          "amount": 76.2
+        },
+        {
+          "description": "PROPOROL NS 100ML",
+          "quantity": 4,
+          "unit_price": 47.92,
+          "amount": 191.68
+        },
+        {
+          "description": "OMNIVAN 10ML",
+          "quantity": 2,
+          "unit_price": 31.46,
+          "amount": 62.92
+        },
+        {
+          "description": "OMNIVAN 2ML",
+          "quantity": 4,
+          "unit_price": 14.02,
+          "amount": 56.08
+        },
+        {
+          "description": "PREP RAZOR MEDI NORM",
+          "quantity": 1,
+          "unit_price": 72.0,
+          "amount": 72.0
+        },
+        {
+          "description": "TETANUS TOXOID INJ",
+          "quantity": 1,
+          "unit_price": 13.08,
+          "amount": 13.08
+        },
+        {
+          "description": "TRULON SW 3836",
+          "quantity": 1,
+          "unit_price": 259.0,
+          "amount": 259.0
+        }
+      ],
+      "page_anomalies": [
+        "The text 'INVOI(' is cut off at the top.",
+        "BILL DATE '22/10/2025' is a future date, identical to page 2's date but with a different time (05:12 PM vs 10:46 PM).",
+        "Printed Date '01/1./25 13:38:5' is a future date.",
+        "Significant discrepancy in financial calculations: Sum of 'Amount' column (2044.44) does not match reported SUB (2046.44).",
+        "Further discrepancy: (SUB 2046.44 - DISC 204.64 + TAX 178.91 - RND 0.21 = 2000.50) does not match NET AMT (1,842.00).",
+        "The 'Amt In Words' (One Thousand, Eight Hundred And Forty-Two Only) matches the stated 'NET AMT' (1,842.00), despite the numerical inconsistencies with other figures."
+      ]
+    }
+  ],
+  "financials": {
+    "subtotal": 2046.44,
+    "tax": 178.91,
+    "extracted_total": 1842.0,
+    "calculated_total": 74393.33,
+    "is_match": false
+  },
+  "fraud_analysis": {
+    "risk_level": "HIGH",
+    "pixel_anomalies_detected": true,
+    "duplicates_detected": false,
+    "flags": [
+      "Document contains three distinct financial summaries/fragments without a consolidated total. The document-level financials are extracted from Page 3 as the last record, but do not represent a total for the entire document.",
+      "BILL DATE (22/10/2025) on pages 2 and 3 is a future date.",
+      "PRINTED ON date (01/1./25) on pages 2 and 3 is a future date and is malformed/truncated on page 2.",
+      "Page 1 is a fragmented invoice, missing complete header details.",
+      "Significant calculation discrepancies on Page 2: Sum of line items (3948.89) does not match the stated SUB (3814.65). The calculated total (SUB - DISC + TAX = 4007.22) does not match the stated NET AMT (3433.00).",
+      "Significant calculation discrepancies on Page 3: Sum of line items (2044.44) does not match the stated SUB (2046.44). The calculated total (SUB - DISC + TAX - RND = 2000.50) does not match the stated NET AMT (1842.00).",
+      "On pages 2 and 3, the 'Amt In Words' matches the stated 'NET AMT', but this 'NET AMT' is inconsistent with other numerical components (subtotal, tax, discount, line item sums), suggesting a possible manual alteration of the total while keeping the word amount consistent or a system error where totals are overridden.",
+      "Handwritten annotation '15' on Page 2.",
+      "Cut-off text ('INVOI(') on Page 3.",
+      "Math mismatch: Extracted 1842.0 vs Calculated 74393.33"
+    ],
+    "reasoning": "The document, presented as a single file, comprises three distinct sections or fragments that appear to be separate transaction records rather than a consolidated invoice. Pages 2 and 3 exhibit highly suspicious characteristics including 'BILL DATE' and 'Printed Date' values set in the future (2025). Critical calculation discrepancies are present on both page 2 and page 3: the sum of individual line item amounts does not align with the reported subtotal, and the calculation involving subtotal, discount, tax, and rounding does not lead to the stated 'NET AMT'. Despite these numerical inconsistencies, the 'Amt In Words' on these pages precisely matches the stated 'NET AMT', which is a significant red flag for potential manipulation. Page 1 is an incomplete invoice fragment, further contributing to the document's lack of coherence. The presence of future dates, multiple unlinked financial summaries, and pervasive calculation errors indicates a high risk of fraud or severe data integrity issues.",
+    "math_mismatch_detected": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "token_usage": {
+    "prompt_tokens": 753,
+    "output_tokens": 658,
+    "total_tokens": 4113,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_3.pdf",
+    "page_count": 1,
+    "document_type": "Invoice/Receipt/Bill/Statement",
+    "document_title": "TAX INVOICE / CASH BILL",
+    "printed_on": null
+  },
+  "header": {
+    "id": "13",
+    "date": null,
+    "vendor_name": "PHARMA",
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "Lozinate - MF",
+          "quantity": 1,
+          "unit_price": 163.0,
+          "amount": 163.0
+        },
+        {
+          "description": "ALEfim",
+          "quantity": 30,
+          "unit_price": 8.898,
+          "amount": 266.94
+        }
+      ],
+      "page_anomalies": [
+        "Handwritten entries for all line item details and totals.",
+        "Low scan quality affecting clarity of some text.",
+        "Unclear or missing transaction date field.",
+        "Missing recipient name."
+      ]
+    }
+  ],
+  "financials": {
+    "subtotal": 429.94,
+    "tax": 0.0,
+    "extracted_total": 430.0,
+    "calculated_total": 429.94,
+    "is_match": true
+  },
+  "fraud_analysis": {
+    "risk_level": "MEDIUM",
+    "pixel_anomalies_detected": true,
+    "duplicates_detected": false,
+    "flags": [
+      "Predominantly handwritten data on a pre-printed template, which makes verification difficult.",
+      "Discrepancy between the calculated sum of line items (Rs. 429.94) and the handwritten extracted total (Rs. 430.00).",
+      "Missing or unclear transaction date.",
+      "Missing recipient details."
+    ],
+    "reasoning": "The document is a low-quality scanned image of a cash bill, where critical information such as drug names, quantities, individual amounts, and the final total are entered by hand. This inherently reduces the verifiability and traceability of the transaction compared to digitally generated invoices. A specific red flag is the minor arithmetic discrepancy between the sum of the line item amounts (Rs. 429.94) and the handwritten extracted total (Rs. 430.00). While this could be a rounding error or simple mistake, it's a deviation from precise calculation. Additionally, the absence of a clear transaction date and recipient information further limits the ability to trace or verify the transaction, increasing the overall risk level.",
+    "math_mismatch_detected": false
+  }
+}

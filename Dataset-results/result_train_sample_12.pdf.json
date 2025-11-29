@@ -1,0 +1,865 @@
+{
+  "token_usage": {
+    "prompt_tokens": 1853,
+    "output_tokens": 8843,
+    "total_tokens": 27302,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_12.pdf",
+    "page_count": 6,
+    "document_type": "Invoice/Receipt/Bill/Statement",
+    "document_title": "Patient Statement",
+    "printed_on": "19/11/2025 16:14"
+  },
+  "header": {
+    "id": null,
+    "date": "2025-11-19",
+    "vendor_name": null,
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 5,
+      "line_items": [
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 4,
+          "unit_price": 73.6,
+          "amount": 294.4
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 2,
+          "unit_price": 73.6,
+          "amount": 147.2
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 2,
+          "unit_price": 73.6,
+          "amount": 147.2
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 2,
+          "unit_price": 73.6,
+          "amount": 147.2
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 2,
+          "unit_price": 73.6,
+          "amount": 147.2
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 4,
+          "unit_price": 73.6,
+          "amount": 294.4
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "LUMBAR PUNCTURE",
+          "quantity": 1,
+          "unit_price": 920.0,
+          "amount": 920.0
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "BLOOD SUGAR BY GLUCOMETER",
+          "quantity": 1,
+          "unit_price": 73.6,
+          "amount": 73.6
+        },
+        {
+          "description": "VASCULAR CLARIS NON STICK FORCEP",
+          "quantity": 1,
+          "unit_price": 460.0,
+          "amount": 460.0
+        },
+        {
+          "description": "WARMING MATTRESS",
+          "quantity": 1,
+          "unit_price": 690.0,
+          "amount": 690.0
+        },
+        {
+          "description": "FLOW SENSOR (FABIAN VENTILATOR)(Dr. Tushar Parikh)",
+          "quantity": 1,
+          "unit_price": 460.0,
+          "amount": 460.0
+        },
+        {
+          "description": "FLOW SENSOR (FABIAN VENTILATOR)(Dr. Tushar Parikh)",
+          "quantity": 1,
+          "unit_price": 460.0,
+          "amount": 460.0
+        },
+        {
+          "description": "BLOOD GROUPING",
+          "quantity": 1,
+          "unit_price": 92.0,
+          "amount": 92.0
+        },
+        {
+          "description": "BLOOD GROUPING - NAT",
+          "quantity": 1,
+          "unit_price": 92.0,
+          "amount": 92.0
+        },
+        {
+          "description": "FRESH FROZEN PLASMA (WITHOUT REPLACE) -",
+          "quantity": 1,
+          "unit_price": 828.0,
+          "amount": 828.0
+        }
+      ],
+      "page_anomalies": [
+        "Page number discrepancy: The document indicates 'Page 5 of 33' at the bottom right, but it is provided as the first visual page in this analysis."
+      ]
+    },
+    {
+      "page_number": 8,
+      "line_items": [
+        {
+          "description": "SYRINGE/ INFUSION PUMP",
+          "quantity": 4,
+          "unit_price": 303.6,
+          "amount": 1214.4
+        },
+        {
+          "description": "ADVANCED VENTILATION (BEAR 750) - HFO",
+          "quantity": 1,
+          "unit_price": 2760.0,
+          "amount": 2760.0
+        },
+        {
+          "description": "SINGLE CHANNEL MONITOR (NICU)",
+          "quantity": 1,
+          "unit_price": 322.0,
+          "amount": 322.0
+        },
+        {
+          "description": "SYRINGE/ INFUSION PUMP",
+          "quantity": 1,
+          "unit_price": 303.6,
+          "amount": 303.6
+        },
+        {
+          "description": "ADVANCED VENTILATION (BEAR 750) - HFO",
+          "quantity": 1,
+          "unit_price": 2760.0,
+          "amount": 2760.0
+        },
+        {
+          "description": "ADVANCED VENTILATION (BEAR 750) - HFO",
+          "quantity": 1,
+          "unit_price": 2760.0,
+          "amount": 2760.0
+        },
+        {
+          "description": "SINGLE CHANNEL MONITOR (NICU)",
+          "quantity": 1,
+          "unit_price": 322.0,
+          "amount": 322.0
+        },
+        {
+          "description": "SYRINGE/ INFUSION PUMP",
+          "quantity": 4,
+          "unit_price": 303.6,
+          "amount": 1214.4
+        },
+        {
+          "description": "ADVANCED VENTILATION (BEAR 750) - HFO",
+          "quantity": 1,
+          "unit_price": 2760.0,
+          "amount": 2760.0
+        },
+        {
+          "description": "SINGLE CHANNEL MONITOR (NICU)",
+          "quantity": 1,
+          "unit_price": 322.0,
+          "amount": 322.0
+        },
+        {
+          "description": "ADVANCED VENTILATION (BEAR 750) - HFO",
+          "quantity": 1,
+          "unit_price": 2760.0,
+          "amount": 2760.0
+        },
+        {
+          "description": "SYRINGE/ INFUSION PUMP",
+          "quantity": 4,
+          "unit_price": 303.6,
+          "amount": 1214.4
+        },
+        {
+          "description": "SINGLE CHANNEL MONITOR (NICU)",
+          "quantity": 1,
+          "unit_price": 322.0,
+          "amount": 322.0
+        },
+        {
+          "description": "ADVANCED VENTILATION (BEAR 750) - HFO",
+          "quantity": 1,
+          "unit_price": 2760.0,
+          "amount": 2760.0
+        },
+        {
+          "description": "SINGLE CHANNEL MONITOR (NICU)",
+          "quantity": 1,
+          "unit_price": 322.0,
+          "amount": 322.0
+        },
+        {
+          "description": "SYRINGE/ INFUSION PUMP",
+          "quantity": 4,
+          "unit_price": 303.6,
+          "amount": 1214.4
+        },
+        {
+          "description": "CONVENTIONAL VENTILATOR",
+          "quantity": 1,
+          "unit_price": 1840.0,
+          "amount": 1840.0
+        },
+        {
+          "description": "SINGLE CHANNEL MONITOR (NICU)",
+          "quantity": 1,
+          "unit_price": 322.0,
+          "amount": 322.0
+        },
+        {
+          "description": "SYRINGE/ INFUSION PUMP",
+          "quantity": 4,
+          "unit_price": 303.6,
+          "amount": 1214.4
+        },
+        {
+          "description": "SINGLE CHANNEL MONITOR (NICU)",
+          "quantity": 1,
+          "unit_price": 322.0,
+          "amount": 322.0
+        },
+        {
+          "description": "CONVENTIONAL VENTILATOR",
+          "quantity": 1,
+          "unit_price": 1840.0,
+          "amount": 1840.0
+        },
+        {
+          "description": "SINGLE CHANNEL MONITOR (NICU)",
+          "quantity": 1,
+          "unit_price": 322.0,
+          "amount": 322.0
+        },
+        {
+          "description": "SYRINGE/ INFUSION PUMP",
+          "quantity": 3,
+          "unit_price": 303.6,
+          "amount": 910.8
+        },
+        {
+          "description": "CONVENTIONAL VENTILATOR",
+          "quantity": 2,
+          "unit_price": 1840.0,
+          "amount": 1840.0
+        },
+        {
+          "description": "SINGLE CHANNEL MONITOR (NICU)",
+          "quantity": 1,
+          "unit_price": 322.0,
+          "amount": 322.0
+        },
+        {
+          "description": "SYRINGE/ INFUSION PUMP",
+          "quantity": 1,
+          "unit_price": 303.6,
+          "amount": 303.6
+        },
+        {
+          "description": "SYRINGE/ INFUSION PUMP",
+          "quantity": 1,
+          "unit_price": 303.6,
+          "amount": 303.6
+        },
+        {
+          "description": "CONVENTIONAL VENTILATOR",
+          "quantity": 1,
+          "unit_price": 1840.0,
+          "amount": 1840.0
+        },
+        {
+          "description": "SINGLE CHANNEL MONITOR (NICU)",
+          "quantity": 1,
+          "unit_price": 322.0,
+          "amount": 322.0
+        },
+        {
+          "description": "SYRINGE/ INFUSION PUMP",
+          "quantity": 2,
+          "unit_price": 303.6,
+          "amount": 607.2
+        },
+        {
+          "description": "PDHM (PASTEURIZED DONOR HUMAN MILK) PROCESSING CHARGES 100 ML",
+          "quantity": 1,
+          "unit_price": 276.0,
+          "amount": 276.0
+        },
+        {
+          "description": "PDHM (PASTEURIZED DONOR HUMAN MILK) PROCESSING CHARGES 100 ML",
+          "quantity": 1,
+          "unit_price": 276.0,
+          "amount": 276.0
+        },
+        {
+          "description": "CONVENTIONAL VENTILATOR",
+          "quantity": 1,
+          "unit_price": 1840.0,
+          "amount": 1840.0
+        }
+      ],
+      "page_anomalies": [
+        "Page number discrepancy: The document indicates 'Page 8 of 33' at the bottom right, but it is provided as the second visual page in this analysis."
+      ]
+    },
+    {
+      "page_number": 10,
+      "line_items": [
+        {
+          "description": "BLOOD SET ( ROMSON )",
+          "quantity": 1,
+          "unit_price": 237.05,
+          "amount": 237.05
+        },
+        {
+          "description": "BLOOD SET ( ROMSON )",
+          "quantity": 1,
+          "unit_price": 237.05,
+          "amount": 237.05
+        },
+        {
+          "description": "BLOOD SET ( ROMSON )",
+          "quantity": 1,
+          "unit_price": 237.05,
+          "amount": 237.05
+        },
+        {
+          "description": "BABY MASSAGE 100ML OIL",
+          "quantity": 1,
+          "unit_price": 124.58,
+          "amount": 124.58
+        },
+        {
+          "description": "STERILE WATER FOR INJECTIONS IP 10ML AMANTA",
+          "quantity": 1,
+          "unit_price": 7.77,
+          "amount": 7.77
+        },
+        {
+          "description": "STERILE WATER FOR INJECTIONS IP 1000ML IV",
+          "quantity": 1,
+          "unit_price": 107.61,
+          "amount": 107.61
+        },
+        {
+          "description": "AQUAPLUS NS 100ML IV",
+          "quantity": 1,
+          "unit_price": 44.9,
+          "amount": 44.9
+        },
+        {
+          "description": "AMITAX 100MG INJECTION",
+          "quantity": 1,
+          "unit_price": 36.0,
+          "amount": 36.0
+        },
+        {
+          "description": "DEXTROSE 10% 500ML IV FLUID AMANTA",
+          "quantity": 1,
+          "unit_price": 37.36,
+          "amount": 37.36
+        },
+        {
+          "description": "KENADION 0.5ML INJECTION",
+          "quantity": 1,
+          "unit_price": 17.58,
+          "amount": 17.58
+        },
+        {
+          "description": "DEXTROSE 10% 500ML IV FLUID AMANTA",
+          "quantity": 1,
+          "unit_price": 37.36,
+          "amount": 37.36
+        },
+        {
+          "description": "DEXTROSE 10% 500ML IV FLUID AMANTA",
+          "quantity": 2,
+          "unit_price": 37.36,
+          "amount": 74.72
+        },
+        {
+          "description": "AMITAX 100MG INJECTION",
+          "quantity": 1,
+          "unit_price": 36.0,
+          "amount": 36.0
+        },
+        {
+          "description": "STERILE WATER FOR INJECTIONS IP 1000ML IV",
+          "quantity": 1,
+          "unit_price": 107.61,
+          "amount": 107.61
+        },
+        {
+          "description": "AQUAPLUS NS 100ML IV",
+          "quantity": 1,
+          "unit_price": 44.9,
+          "amount": 44.9
+        },
+        {
+          "description": "AMBIFOVEN INFANT 10% 100ML IV",
+          "quantity": 1,
+          "unit_price": 672.0,
+          "amount": 672.0
+        },
+        {
+          "description": "SMOFLIPID 20% 250ML IV",
+          "quantity": 1,
+          "unit_price": 1098.0,
+          "amount": 1098.0
+        },
+        {
+          "description": "MULTIMIN 10ML INJECTION",
+          "quantity": 1,
+          "unit_price": 32.81,
+          "amount": 32.81
+        },
+        {
+          "description": "DEXTROSE 10% 500ML IV FLUID AMANTA",
+          "quantity": 1,
+          "unit_price": 37.36,
+          "amount": 37.36
+        },
+        {
+          "description": "AMBIFOVEN INFANT 10% 100ML IV",
+          "quantity": 1,
+          "unit_price": 672.0,
+          "amount": 672.0
+        },
+        {
+          "description": "SMOFLIPID 20% 250ML IV",
+          "quantity": 1,
+          "unit_price": 1098.0,
+          "amount": 1098.0
+        }
+      ],
+      "page_anomalies": [
+        "Page number discrepancy: The document indicates 'Page 10 of 33' at the bottom right, but it is provided as the third visual page in this analysis.",
+        "Some line items in 'Blood Surgical Disposables' and 'Central Store - Medicine' sections have identical Gross and Net amounts (e.g., Blood Set, Baby Massage Oil), indicating no discount or adjustment was applied, which contrasts with the 8% reduction observed for most items on page 5 and 8."
+      ]
+    },
+    {
+      "page_number": 15,
+      "line_items": [
+        {
+          "description": "POLYVOL PRO 150ML (REF-14516) POLYMED",
+          "quantity": 2,
+          "unit_price": 339.38,
+          "amount": 678.76
+        },
+        {
+          "description": "INTRACATH NO -26 POLYMED NEONOVA",
+          "quantity": 2,
+          "unit_price": 169.69,
+          "amount": 339.38
+        },
+        {
+          "description": "VEIN LINE S 100CM EXT.ROMSON (VE11)",
+          "quantity": 3,
+          "unit_price": 468.75,
+          "amount": 1406.25
+        },
+        {
+          "description": "TUBERCULIN SYRINGE1cc.27 BD SY1",
+          "quantity": 1,
+          "unit_price": 96.0,
+          "amount": 96.0
+        },
+        {
+          "description": "DISPO SYRINGE 5ML WITHOUT NEED(HMD)",
+          "quantity": 6,
+          "unit_price": 9.5,
+          "amount": 57.0
+        },
+        {
+          "description": "SYRINGE W/O NEEDLE 20ML L/L (BD) SYW2",
+          "quantity": 2,
+          "unit_price": 80.0,
+          "amount": 160.0
+        },
+        {
+          "description": "SYRINGE W/O NEEDLE 50ML L/L (BD) SYW5",
+          "quantity": 1,
+          "unit_price": 159.37,
+          "amount": 159.37
+        },
+        {
+          "description": "SURGEON CAP DELUX (SUCT)",
+          "quantity": 2,
+          "unit_price": 10.0,
+          "amount": 20.0
+        },
+        {
+          "description": "FACE MASK STERILE REGAL- ELASTIC",
+          "quantity": 2,
+          "unit_price": 4.0,
+          "amount": 8.0
+        },
+        {
+          "description": "STERILE GLOVES 6.5 (SURGICARE) (SGS65)",
+          "quantity": 3,
+          "unit_price": 90.94,
+          "amount": 272.82
+        },
+        {
+          "description": "STERILE GLOVES 7 (SURGICARE) (SGS7)",
+          "quantity": 3,
+          "unit_price": 90.93,
+          "amount": 272.79
+        },
+        {
+          "description": "EXAMINATION NITRILE GLOVES PENGUIN(10PC) MEDIUM POWDER FREE",
+          "quantity": 1,
+          "unit_price": 32.34,
+          "amount": 32.34
+        },
+        {
+          "description": "URINE BAG (PAED.)ROMSON) UPAE",
+          "quantity": 4,
+          "unit_price": 37.0,
+          "amount": 148.0
+        },
+        {
+          "description": "SUCTION CATHETER NO.8 (TOP) SC8",
+          "quantity": 1,
+          "unit_price": 70.0,
+          "amount": 70.0
+        },
+        {
+          "description": "BLOOD LANCETS(EASY CARE) BLAN",
+          "quantity": 1,
+          "unit_price": 14.96,
+          "amount": 14.96
+        },
+        {
+          "description": "FRIENDS UNDER PAD CARE 60*90CM",
+          "quantity": 1,
+          "unit_price": 206.25,
+          "amount": 206.25
+        },
+        {
+          "description": "TEDDY BABY DIAPER NEW BORN (10 PCS)",
+          "quantity": 1,
+          "unit_price": 253.13,
+          "amount": 253.13
+        },
+        {
+          "description": "INTRACATH NO -26 POLYMED NEONOVA",
+          "quantity": 1,
+          "unit_price": 169.69,
+          "amount": 169.69
+        },
+        {
+          "description": "VEINO LINE S 100CM EXT.ROMSON (VE11)",
+          "quantity": 2,
+          "unit_price": 468.75,
+          "amount": 937.5
+        },
+        {
+          "description": "TUBERCULIN SYRINGE1cc.27 BD SY1",
+          "quantity": 2,
+          "unit_price": 24.0,
+          "amount": 48.0
+        }
+      ],
+      "page_anomalies": [
+        "Page number discrepancy: The document indicates 'Page 15 of 33' at the bottom right, but it is provided as the fourth visual page in this analysis."
+      ]
+    },
+    {
+      "page_number": 20,
+      "line_items": [
+        {
+          "description": "DISPO SYRINGE 10ML WITHOUT NEED(HMD)",
+          "quantity": 5,
+          "unit_price": 11.25,
+          "amount": 56.25
+        },
+        {
+          "description": "SYRINGE W/O NEEDLE 20ML L/L (BD) SYW2",
+          "quantity": 1,
+          "unit_price": 80.0,
+          "amount": 80.0
+        },
+        {
+          "description": "NEEDLE NO.23 1\" DISPOVAN (DN23)",
+          "quantity": 2,
+          "unit_price": 2.44,
+          "amount": 4.88
+        },
+        {
+          "description": "INFANT FEEDING TUBE NO.8(ROMS) IFTS",
+          "quantity": 1,
+          "unit_price": 63.0,
+          "amount": 63.0
+        },
+        {
+          "description": "FACE MASK STERILE REGAL- ELASTIC",
+          "quantity": 2,
+          "unit_price": 4.0,
+          "amount": 8.0
+        },
+        {
+          "description": "TEGADERM 1623 (6*7) 3M T1623",
+          "quantity": 1,
+          "unit_price": 116.25,
+          "amount": 116.25
+        },
+        {
+          "description": "STERILE GLOVES 6.5 (SURGICARE) (SGS65)",
+          "quantity": 2,
+          "unit_price": 90.94,
+          "amount": 181.88
+        },
+        {
+          "description": "STERILE GLOVES 7 (SURGICARE) (SGS7)",
+          "quantity": 2,
+          "unit_price": 90.93,
+          "amount": 181.86
+        },
+        {
+          "description": "EXAMINATION NITRILE GLOVES PENGUIN(10PC) MEDIUM POWDER FREE",
+          "quantity": 1,
+          "unit_price": 32.34,
+          "amount": 32.34
+        },
+        {
+          "description": "MICROPORE SURGICAL TAPE 1\" (MICI)",
+          "quantity": 1,
+          "unit_price": 126.5,
+          "amount": 126.5
+        },
+        {
+          "description": "POLYVOL PRO 150ML (REF-14516) POLYMED",
+          "quantity": 1,
+          "unit_price": 339.0,
+          "amount": 339.0
+        },
+        {
+          "description": "URINE BAG (PAED.)ROMSON) UPAE",
+          "quantity": 2,
+          "unit_price": 37.0,
+          "amount": 74.0
+        },
+        {
+          "description": "DUODERM TH 10*10 PATCH EXTRA THIN",
+          "quantity": 1,
+          "unit_price": 252.56,
+          "amount": 252.56
+        },
+        {
+          "description": "SUCTION CATHETER NO.8 (TOP) SC8",
+          "quantity": 4,
+          "unit_price": 65.62,
+          "amount": 262.48
+        },
+        {
+          "description": "BLOOD LANCETS(EASY CARE) BLAN",
+          "quantity": 1,
+          "unit_price": 11.22,
+          "amount": 11.22
+        },
+        {
+          "description": "FRIENDS UNDER PAD CARE 60*90CM",
+          "quantity": 1,
+          "unit_price": 206.25,
+          "amount": 206.25
+        },
+        {
+          "description": "GLYCERINE 100 GM (PDIGLY1)",
+          "quantity": 1,
+          "unit_price": 80.0,
+          "amount": 80.0
+        },
+        {
+          "description": "STERILE GLOVES 7 (SURGICARE) (SGS7)",
+          "quantity": 2,
+          "unit_price": 90.93,
+          "amount": 181.86
+        },
+        {
+          "description": "INTRACATH NO -26 POLYMED NEONOVA",
+          "quantity": 2,
+          "unit_price": 169.69,
+          "amount": 339.38
+        },
+        {
+          "description": "INTRACATH NO -26 POLYMED NEONOVA",
+          "quantity": 1,
+          "unit_price": 169.69,
+          "amount": 169.69
+        },
+        {
+          "description": "VEINO LINE S10CM (ROMSON) (VE10)",
+          "quantity": 1,
+          "unit_price": 419.0,
+          "amount": 419.0
+        }
+      ],
+      "page_anomalies": [
+        "Page number discrepancy: The document indicates 'Page 20 of 33' at the bottom right, but it is provided as the fifth visual page in this analysis."
+      ]
+    }
+  ],
+  "financials": {
+    "subtotal": 75986.08,
+    "tax": null,
+    "extracted_total": null,
+    "calculated_total": 58292.35,
+    "is_match": null
+  },
+  "fraud_analysis": {
+    "risk_level": "MEDIUM",
+    "pixel_anomalies_detected": false,
+    "duplicates_detected": false,
+    "flags": [
+      "Document is incomplete: Only 5 pages out of an indicated 33 pages are provided, meaning an overall final total cannot be extracted.",
+      "Missing key header information: 'Bill No', 'Patient Name', 'Sponsor', 'Admission No', 'Vendor Name', and 'Recipient Name' fields are empty or not present, hindering proper identification and verification.",
+      "Page numbering inconsistency: The physical order of provided pages (1-5) does not align with the internal page numbering of the document ('Page 5 of 33', 'Page 8 of 33', 'Page 10 of 33', 'Page 15 of 33', 'Page 20 of 33').",
+      "Inconsistent Gross vs. Net amounts: For most line items (e.g., on pages 5, 8, 15, 20), there is a consistent reduction from 'Gross' to 'Net' (approximately 8% in many cases), suggesting a discount or adjustment. However, on page 10, several items have 'Gross' equal to 'Net', indicating no such reduction was applied to those specific items without clear explanation.",
+      "No explicit 'Tax' field: While a difference between Gross and Net exists, it is not labeled as tax, making it difficult to ascertain if sales tax or other levies are included or separately charged."
+    ],
+    "reasoning": "The document is an incomplete patient statement, lacking crucial information for full financial reconciliation. Key header fields like 'Bill No' and 'Patient Name' are missing. Only a partial view of the statement (5 out of 33 pages) is available, preventing the extraction of a conclusive overall total, subtotal, or any clearly delineated tax amount. The discrepancy between 'Gross' and 'Net' amounts varies across items; while a consistent 8% reduction is seen for many, others show no difference, which could indicate inconsistent pricing or discounting policies without further clarification. No pixel anomalies or suspicious duplicate entries were detected within the provided pages; repetitive items appeared with distinct dates or quantities, which is normal for a multi-day patient service record.",
+    "math_mismatch_detected": false
+  }
+}

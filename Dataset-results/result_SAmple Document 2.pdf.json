@@ -1,0 +1,79 @@
+{
+  "token_usage": {
+    "prompt_tokens": 1743,
+    "output_tokens": 842,
+    "total_tokens": 5951,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "SAmple Document 2.pdf",
+    "page_count": 2,
+    "document_type": "Invoice/Bill Detail",
+    "document_title": "Sample Document 1",
+    "printed_on": null
+  },
+  "header": {
+    "id": null,
+    "date": "2025-11-20",
+    "vendor_name": null,
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "Livi 300mg Tab",
+          "quantity": 14,
+          "unit_price": 32.0,
+          "amount": 448.0
+        },
+        {
+          "description": "Metnuro",
+          "quantity": 7,
+          "unit_price": 17.72,
+          "amount": 124.03
+        },
+        {
+          "description": "Pizat 4.5",
+          "quantity": 2,
+          "unit_price": 419.06,
+          "amount": 838.12
+        },
+        {
+          "description": "Supralite Os Syp",
+          "quantity": 1,
+          "unit_price": 289.69,
+          "amount": 289.69
+        }
+      ],
+      "page_anomalies": []
+    },
+    {
+      "page_number": 2,
+      "line_items": [],
+      "page_anomalies": []
+    }
+  ],
+  "financials": {
+    "subtotal": 1699.84,
+    "tax": null,
+    "extracted_total": 1699.84,
+    "calculated_total": 1699.84,
+    "is_match": true
+  },
+  "fraud_analysis": {
+    "risk_level": "LOW",
+    "pixel_anomalies_detected": false,
+    "duplicates_detected": false,
+    "flags": [
+      "Document is a data extraction report, not an original transactional document (invoice/receipt), which limits traditional fraud analysis.",
+      "Absence of explicit invoice ID.",
+      "Absence of vendor name.",
+      "Absence of recipient name.",
+      "Absence of specific tax line item or rate."
+    ],
+    "reasoning": "The provided document is an analysis report, presenting a tabular view of invoice/bill details and a corresponding JSON output of the extracted data. It is not an original transactional document itself (e.g., a scanned invoice from a vendor). Therefore, traditional forensic auditing for alterations, forged details, or inconsistencies on an original document is not applicable. The visible data in the table on Page 1 is internally consistent, and the arithmetic calculations (Qty * Rate = Gross Amount, and sum of Gross Amounts = Category Total) are accurate based on the displayed values. There are no visual anomalies such as inconsistent fonts, pixelation, or signs of digital alteration within the extracted data table. The JSON output confirms the data presented in the table. The risk level is low because the document serves as an internal reporting tool, and the internal consistency between visual data and extracted data is maintained. However, key header information such as a unique invoice ID, vendor name, and recipient name are not present in the visible data, which would typically be expected on a complete transactional document. No specific tax amount or rate is provided; the 'Category Total' represents the sum of gross amounts, which serves as the subtotal and the final extracted total.",
+    "math_mismatch_detected": false
+  }
+}

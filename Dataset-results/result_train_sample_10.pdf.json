@@ -1,0 +1,240 @@
+{
+  "token_usage": {
+    "prompt_tokens": 3358,
+    "output_tokens": 2601,
+    "total_tokens": 10879,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_10.pdf",
+    "page_count": 3,
+    "document_type": "Invoice",
+    "document_title": "Interim Bill - Bill of Supply",
+    "printed_on": null
+  },
+  "header": {
+    "id": "INT2043376",
+    "date": "2025-11-19",
+    "vendor_name": null,
+    "recipient_name": "Mrs. GOPA DUTTA"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "Consultation(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 79750.0
+        },
+        {
+          "description": "Equipment(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 213250.0
+        },
+        {
+          "description": "Invasive Procedures(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 35720.0
+        },
+        {
+          "description": "Investigations(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 173010.0
+        },
+        {
+          "description": "Medical Records(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 600.0
+        },
+        {
+          "description": "Non Invasive Procedure(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 141120.0
+        },
+        {
+          "description": "Nutritional and Functional Assessment Charges(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 600.0
+        },
+        {
+          "description": "OT Charges(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 115000.0
+        },
+        {
+          "description": "OT Consumables(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 52517.96
+        },
+        {
+          "description": "OT Pharmacy(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 2244.37
+        },
+        {
+          "description": "Pharmacy Consumables(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 334504.78
+        },
+        {
+          "description": "Physiotherapy(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 22500.0
+        },
+        {
+          "description": "Professional Charges(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 102500.0
+        },
+        {
+          "description": "Profile(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 131170.0
+        },
+        {
+          "description": "Room Rent(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 235800.0
+        },
+        {
+          "description": "Ward Pharmacy(999311)",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": 569475.95
+        }
+      ],
+      "page_anomalies": [
+        "Page number indicates '1 of 90', suggesting a significant portion of the document is missing.",
+        "Multiple instances of patient/bill IDs (e.g., INT2043376, AMHL.0002165665, AMHLIP398580) appear visually scattered in the header area, sometimes redundant with designated fields.",
+        "Overall header layout appears somewhat crammed and misaligned in places."
+      ]
+    },
+    {
+      "page_number": 2,
+      "line_items": [],
+      "page_anomalies": [
+        "Page number indicates '2 of 90', suggesting a significant portion of the document is missing.",
+        "The document explicitly states it is an 'Interim Bill' and 'does not have any financial implications', which significantly reduces its validity as a final financial record.",
+        "A disclaimer is present indicating the 'final Bill amount may vary depending on actual consumption of services and medicines at the time of discharge'."
+      ]
+    },
+    {
+      "page_number": 3,
+      "line_items": [
+        {
+          "description": "IP CONSULTATION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        }
+      ],
+      "page_anomalies": [
+        "Page number indicates '3 of 90', suggesting a significant portion of the document is missing.",
+        "Multiple identical line items (12 instances) for 'IP CONSULTATION CHARGES' are listed, each with a quantity of 1.00, unit price of 1,000.00, and an amount of 1,000.00, although attributed to different doctors."
+      ]
+    }
+  ],
+  "financials": {
+    "subtotal": 2209763.0,
+    "tax": 0.0,
+    "extracted_total": 2209763.0,
+    "calculated_total": 2221763.06,
+    "is_match": false
+  },
+  "fraud_analysis": {
+    "risk_level": "MEDIUM",
+    "pixel_anomalies_detected": false,
+    "duplicates_detected": true,
+    "flags": [
+      "Document explicitly states it is an 'Interim Bill' and 'does not have any financial implications', making its financial validity questionable as a final record for payment.",
+      "Only 3 out of 90 indicated pages are provided, representing a significant omission of information needed for a comprehensive audit.",
+      "Multiple identical line items (12 instances of 'IP CONSULTATION CHARGES' for 1 unit at 1000.00 each) are present on Page 3. While potentially legitimate for individual consultations, this pattern could warrant further scrutiny in a full audit to ensure proper breakdown and justification.",
+      "The vendor's specific name (e.g., Hospital name) is not explicitly stated in a dedicated field, though identifiers like GSTIN (19AAECA5407E1ZY) and a CE Licence Number are present.",
+      "Math mismatch: Extracted 2209763.0 vs Calculated 2221763.06"
+    ],
+    "reasoning": "The document is labeled as an 'Interim Bill - Bill of Supply' and explicitly states that it 'does not have any financial implications' and that the 'final Bill amount may vary'. This significantly diminishes its reliability as a definitive financial record for payment or auditing. Furthermore, only 3 out of a stated 90 pages are provided, indicating substantial missing information that would be crucial for a complete financial reconciliation and audit. While no clear pixel-level manipulations were detected, the layout in the header section on Page 1 appears somewhat cluttered and contains redundant ID references. Page 3 lists 12 identical 'IP CONSULTATION CHARGES' line items, each for the same quantity, unit price, and total amount, although linked to different doctors. While this could represent multiple legitimate consultations, it's a pattern that would typically trigger a deeper review in a forensic audit to confirm individual service delivery and pricing consistency. The lack of an explicit vendor name also warrants noting, although other identifiers are present.",
+    "math_mismatch_detected": true
+  }
+}

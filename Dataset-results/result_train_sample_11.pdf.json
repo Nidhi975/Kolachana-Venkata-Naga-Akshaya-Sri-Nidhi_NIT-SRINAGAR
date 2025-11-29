@@ -1,0 +1,85 @@
+{
+  "token_usage": {
+    "prompt_tokens": 757,
+    "output_tokens": 1115,
+    "total_tokens": 5446,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_11.pdf",
+    "page_count": 1,
+    "document_type": "Cash Bill",
+    "document_title": "CASH BILL",
+    "printed_on": null
+  },
+  "header": {
+    "id": "383",
+    "date": "2023-07-02",
+    "vendor_name": null,
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "Okamet-500",
+          "quantity": 200,
+          "unit_price": null,
+          "amount": 200.0
+        },
+        {
+          "description": "Telma-20",
+          "quantity": 30,
+          "unit_price": null,
+          "amount": 110.0
+        },
+        {
+          "description": "Talma 20mg",
+          "quantity": 30,
+          "unit_price": null,
+          "amount": 129.0
+        },
+        {
+          "description": "Okamet-500",
+          "quantity": 200,
+          "unit_price": null,
+          "amount": 228.0
+        },
+        {
+          "description": "GST Discount",
+          "quantity": 1,
+          "unit_price": -43.0,
+          "amount": -43.0
+        }
+      ],
+      "page_anomalies": [
+        "Multiple distinct 'Cash Bill' forms present on a single page.",
+        "Inconsistent handwriting styles and numerical digit formation observed between the two bill sections.",
+        "Significant date and ID discrepancies between the two bill sections (ID 383 dated 2023-07-02 vs ID 257 dated 2025-10-16)."
+      ]
+    }
+  ],
+  "financials": {
+    "subtotal": 357.0,
+    "tax": -43.0,
+    "extracted_total": 314.0,
+    "calculated_total": 624.0,
+    "is_match": false
+  },
+  "fraud_analysis": {
+    "risk_level": "HIGH",
+    "pixel_anomalies_detected": false,
+    "duplicates_detected": true,
+    "flags": [
+      "Document contains two distinct 'CASH BILL' forms on a single physical page.",
+      "Each bill form has a different ID (383 and 257) and date (2023-07-02 and 2025-10-16), suggesting separate transactions presented as a single document.",
+      "Identical or highly similar line items ('Okamet-500', 'Telma-20' / 'Talma 20mg') appear on both bill forms with the same quantities but different total amounts (e.g., Okamet-500: 200 units for 200.00 vs 200 units for 228.00; Telma-20/Talma 20mg: 30 units for 110.00 vs 30 units for 129.00).",
+      "Inconsistent handwriting style and numerical digit formation observed between the top and bottom bill sections, which could indicate different individuals completing the forms or attempts at alteration.",
+      "Lack of explicit vendor and recipient names on either bill section.",
+      "Math mismatch: Extracted 314.0 vs Calculated 624.0"
+    ],
+    "reasoning": "The document explicitly presents two separate 'CASH BILL' records on a single page, each with its own unique bill number and transaction date, implying two distinct transactions. A significant red flag is the presence of identical or highly similar pharmaceutical items ('Okamet-500' and 'Telma-20' / 'Talma 20mg') appearing on both bills with the same quantities but different prices. For example, 'Okamet-500' for 200 units is priced at 200.00 in the first bill and 228.00 in the second, and 'Telma-20' for 30 units is 110.00 while 'Talma 20mg' (likely the same item) for 30 units is 129.00. This strongly suggests potential duplicate claims, re-billing for the same items at different prices, or attempts at price manipulation. Furthermore, the visible differences in handwriting style between the two sections raise questions about who completed each part. The absence of clear vendor and patient details on either bill adds to the overall high-risk assessment, as it hinders verification of the transactions.",
+    "math_mismatch_detected": true
+  }
+}

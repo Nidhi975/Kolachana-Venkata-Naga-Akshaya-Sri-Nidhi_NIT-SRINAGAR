@@ -1,0 +1,124 @@
+{
+  "token_usage": {
+    "prompt_tokens": 2541,
+    "output_tokens": 1289,
+    "total_tokens": 6477,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "Sample Document 3.pdf",
+    "page_count": 3,
+    "document_type": "Bill Detail",
+    "document_title": "Bill Detail",
+    "printed_on": null
+  },
+  "header": {
+    "id": null,
+    "date": "2025-09-25",
+    "vendor_name": "Medical Facility (based on services)",
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "Consultation (Dr. Neo Church Tharsis(Diabetologist, General Medicine))",
+          "quantity": 4,
+          "unit_price": 1000.0,
+          "amount": 4000.0
+        },
+        {
+          "description": "RENAL FUNCTION TEST (RFT)",
+          "quantity": 1,
+          "unit_price": 240.0,
+          "amount": 240.0
+        },
+        {
+          "description": "ELECTROLYTES",
+          "quantity": 1,
+          "unit_price": 450.0,
+          "amount": 450.0
+        },
+        {
+          "description": "URINE COMPLETE ANALYSIS",
+          "quantity": 1,
+          "unit_price": 250.0,
+          "amount": 250.0
+        },
+        {
+          "description": "GLUCOSE FASTING (FBS)",
+          "quantity": 1,
+          "unit_price": 50.0,
+          "amount": 50.0
+        },
+        {
+          "description": "X-Ray",
+          "quantity": 1,
+          "unit_price": 500.0,
+          "amount": 500.0
+        },
+        {
+          "description": "Registration",
+          "quantity": 1,
+          "unit_price": 300.0,
+          "amount": 300.0
+        },
+        {
+          "description": "Room Ward Charges",
+          "quantity": 3,
+          "unit_price": 2000.0,
+          "amount": 6000.0
+        },
+        {
+          "description": "DMO, (Ward)",
+          "quantity": 3,
+          "unit_price": 500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "Nursing Charge (Ward)",
+          "quantity": 3,
+          "unit_price": 500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "Maintenance Charges",
+          "quantity": 3,
+          "unit_price": 200.0,
+          "amount": 600.0
+        },
+        {
+          "description": "Nebulization",
+          "quantity": 10,
+          "unit_price": 100.0,
+          "amount": 1000.0
+        }
+      ],
+      "page_anomalies": [
+        "The displayed 'Total' amount (16390.00) has a faint horizontal line partially crossing it, which may indicate a visual anomaly or an attempt at obfuscation/modification.",
+        "The date '25/09/2025' is used for most line items, but the 'Consultation' line item does not explicitly list a date in the visual table."
+      ]
+    }
+  ],
+  "financials": {
+    "subtotal": null,
+    "tax": null,
+    "extracted_total": 16390.0,
+    "calculated_total": 16390.0,
+    "is_match": true
+  },
+  "fraud_analysis": {
+    "risk_level": "HIGH",
+    "pixel_anomalies_detected": true,
+    "duplicates_detected": false,
+    "flags": [
+      "Calculation Mismatch (Sum of line items vs. Extracted Total)",
+      "Visual anomaly on extracted total (partial strikethrough/line)",
+      "No explicit Subtotal or Tax breakout",
+      "No clear Vendor or Recipient name"
+    ],
+    "reasoning": "The most significant red flag is a clear discrepancy between the sum of the individual line item amounts and the stated 'Total' amount. The sum of all line item amounts is 16,490.00 (4000+240+450+250+50+500+300+6000+1500+1500+600+1000). However, the document explicitly states the 'Total' as 16,390.00. This represents a difference of 100.00, which is a critical calculation error or an intentional alteration. Additionally, there's a faint horizontal line partially crossing the digits of the 'Total' amount (16390.00) on the document, which could be a pixel anomaly indicating a potential edit or alteration. The document lacks a clear invoice ID, explicit vendor name (beyond the doctor's name in a service description), and recipient name, which are common details in standard billing documents.",
+    "math_mismatch_detected": false
+  }
+}

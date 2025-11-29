@@ -1,0 +1,70 @@
+{
+  "token_usage": {
+    "prompt_tokens": 753,
+    "output_tokens": 767,
+    "total_tokens": 3239,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_8.pdf",
+    "page_count": 1,
+    "document_type": "Bill",
+    "document_title": null,
+    "printed_on": null
+  },
+  "header": {
+    "id": "1377",
+    "date": "2021-07-03",
+    "vendor_name": null,
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "Histoface Sl",
+          "quantity": 1,
+          "unit_price": 109.0,
+          "amount": 109.0
+        },
+        {
+          "description": "Cablekad Psa",
+          "quantity": 1,
+          "unit_price": 160.0,
+          "amount": 160.0
+        },
+        {
+          "description": "Cabalcece IA",
+          "quantity": 1,
+          "unit_price": 231.0,
+          "amount": 231.0
+        }
+      ],
+      "page_anomalies": [
+        "Document is entirely handwritten, including text and numerical entries.",
+        "Inconsistent handwriting style for descriptions and numerical values, although appears to be from the same hand.",
+        "The 'Amount In Words' section contains text that is either poorly written or potentially altered, creating a significant discrepancy with the numerical total."
+      ]
+    }
+  ],
+  "financials": {
+    "subtotal": 500.0,
+    "tax": null,
+    "extracted_total": 500.0,
+    "calculated_total": 500.0,
+    "is_match": true
+  },
+  "fraud_analysis": {
+    "risk_level": "HIGH",
+    "pixel_anomalies_detected": true,
+    "duplicates_detected": false,
+    "flags": [
+      "Handwritten document lacks formalization and standardization, increasing risk of error or alteration.",
+      "Significant discrepancy between the numerical 'TOTAL' (500) and the handwritten 'Amount In Words' ('Free Hundred Only'). The word 'Free' directly contradicts the numerical value and suggests potential misrepresentation or alteration. There is also poorly legible text following 'Free Hundred Only' which could be an attempt to write 'only' or further obscure the amount.",
+      "Lack of vendor and recipient details makes verification difficult."
+    ],
+    "reasoning": "The primary concern for potential fraud or error stems from the significant discrepancy in the 'Amount In Words' section. While the sum of the line items (109 + 160 + 231 = 500) perfectly matches the numerical 'TOTAL' of 500, the 'Amount In Words' clearly states 'Rs. Free Hundred Only'. The word 'Free' directly implies no cost, which is a stark contradiction to the stated numerical total of 500. This highly suspicious inconsistency, coupled with the entirely handwritten nature of the document and the lack of explicit vendor/recipient information, elevates the risk level to HIGH. There appears to be either a deliberate alteration or a grave error in recording the amount in words, which warrants further investigation.",
+    "math_mismatch_detected": false
+  }
+}

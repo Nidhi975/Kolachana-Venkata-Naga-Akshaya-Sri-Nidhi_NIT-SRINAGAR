@@ -1,0 +1,432 @@
+{
+  "token_usage": {
+    "prompt_tokens": 1299,
+    "output_tokens": 4591,
+    "total_tokens": 16606,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_2.pdf",
+    "page_count": 3,
+    "document_type": "Cash Memo",
+    "document_title": "CASH Memo(IPD)",
+    "printed_on": null
+  },
+  "header": {
+    "id": null,
+    "date": null,
+    "vendor_name": "MEDICOS",
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "CANNULA 22 NO",
+          "quantity": 1,
+          "unit_price": 105.0,
+          "amount": 105.0
+        },
+        {
+          "description": "FIXER I",
+          "quantity": 1,
+          "unit_price": 10.0,
+          "amount": 10.0
+        },
+        {
+          "description": "NS 500ML",
+          "quantity": 1,
+          "unit_price": 120.0,
+          "amount": 120.0
+        },
+        {
+          "description": "EBIDOT 1.5GM (CEFTRIAXONE",
+          "quantity": 3,
+          "unit_price": 1999.0,
+          "amount": 5997.0
+        },
+        {
+          "description": "FLUTECH 2GM (FLUCLOXACIL",
+          "quantity": 2,
+          "unit_price": 1999.0,
+          "amount": 3990.0
+        },
+        {
+          "description": "ZOMEG 130MG(PANT/ATHENI",
+          "quantity": 3,
+          "unit_price": 13.35,
+          "amount": 40.05
+        },
+        {
+          "description": "EMESET 2MG 2ML INJ",
+          "quantity": 3,
+          "unit_price": 13.35,
+          "amount": 40.05
+        },
+        {
+          "description": "ESOMAN 40MG INJ",
+          "quantity": 3,
+          "unit_price": 522.0,
+          "amount": 1566.0
+        },
+        {
+          "description": "GABAPIN NT 1ML",
+          "quantity": 2,
+          "unit_price": 12.83,
+          "amount": 25.66
+        },
+        {
+          "description": "EMESET 2MG 2ML INJ",
+          "quantity": 3,
+          "unit_price": 7.0,
+          "amount": 21.0
+        },
+        {
+          "description": "ESOMAN 40MG INJ",
+          "quantity": 3,
+          "unit_price": 522.0,
+          "amount": 1566.0
+        },
+        {
+          "description": "NIMODIP 1ML",
+          "quantity": 2,
+          "unit_price": 10.0,
+          "amount": 20.0
+        },
+        {
+          "description": "BUSCOGAST INJ 1ML",
+          "quantity": 2,
+          "unit_price": 12.83,
+          "amount": 25.66
+        },
+        {
+          "description": "DYNAPAR AQ INJ",
+          "quantity": 1,
+          "unit_price": 23.0,
+          "amount": 23.0
+        },
+        {
+          "description": "VIMZOTECH INJ",
+          "quantity": 1,
+          "unit_price": 1700.0,
+          "amount": 1700.0
+        },
+        {
+          "description": "ONDAPAK INJ",
+          "quantity": 2,
+          "unit_price": 100.25,
+          "amount": 200.5
+        },
+        {
+          "description": "VIMZOTECH INJ",
+          "quantity": 1,
+          "unit_price": 1700.0,
+          "amount": 1700.0
+        },
+        {
+          "description": "NS 100ML",
+          "quantity": 5,
+          "unit_price": 47.0,
+          "amount": 235.0
+        },
+        {
+          "description": "MUCOXIME 6MG 2ML 200ML",
+          "quantity": 1,
+          "unit_price": 182.0,
+          "amount": 182.0
+        },
+        {
+          "description": "ACTIVATE SYP 1*200ML",
+          "quantity": 1,
+          "unit_price": 129.15,
+          "amount": 129.15
+        },
+        {
+          "description": "OSS25500",
+          "quantity": 2,
+          "unit_price": 100.25,
+          "amount": 200.5
+        },
+        {
+          "description": "NS 500ML",
+          "quantity": 2,
+          "unit_price": 47.0,
+          "amount": 94.0
+        },
+        {
+          "description": "NS 500ML",
+          "quantity": 5,
+          "unit_price": 47.0,
+          "amount": 235.0
+        },
+        {
+          "description": "5ML D3 5ML",
+          "quantity": 3,
+          "unit_price": 7.0,
+          "amount": 21.0
+        },
+        {
+          "description": "5ML D5 5ML",
+          "quantity": 3,
+          "unit_price": 10.0,
+          "amount": 30.0
+        },
+        {
+          "description": "10ML D5 10ML",
+          "quantity": 3,
+          "unit_price": 15.0,
+          "amount": 45.0
+        }
+      ],
+      "page_anomalies": [
+        "Document appears to be a scanned image with slight misalignment and low resolution, potentially obscuring minor edits."
+      ]
+    },
+    {
+      "page_number": 2,
+      "line_items": [
+        {
+          "description": "EBIDOT 1.5GM (CEFTRIAXONE",
+          "quantity": 3,
+          "unit_price": 1999.0,
+          "amount": 5997.0
+        },
+        {
+          "description": "FLUTECH 2GM (FLUCLOXACIL",
+          "quantity": 2,
+          "unit_price": 1999.0,
+          "amount": 3990.0
+        },
+        {
+          "description": "ZOMEG 130MG(PANT/ATHENI",
+          "quantity": 3,
+          "unit_price": 13.35,
+          "amount": 40.05
+        },
+        {
+          "description": "EMESET 2MG 2ML INJ",
+          "quantity": 3,
+          "unit_price": 13.35,
+          "amount": 40.05
+        },
+        {
+          "description": "ESOMAN 40MG INJ",
+          "quantity": 3,
+          "unit_price": 522.0,
+          "amount": 1566.0
+        },
+        {
+          "description": "GABAPIN NT 1ML",
+          "quantity": 2,
+          "unit_price": 12.83,
+          "amount": 25.66
+        },
+        {
+          "description": "EMESET 2MG 2ML INJ",
+          "quantity": 3,
+          "unit_price": 7.0,
+          "amount": 21.0
+        },
+        {
+          "description": "BUSCOGAST INJ 1ML",
+          "quantity": 2,
+          "unit_price": 12.83,
+          "amount": 25.66
+        },
+        {
+          "description": "DYNAPAR AQ INJ",
+          "quantity": 1,
+          "unit_price": 23.0,
+          "amount": 23.0
+        },
+        {
+          "description": "VIMZOTECH INJ",
+          "quantity": 1,
+          "unit_price": 1700.0,
+          "amount": 1700.0
+        },
+        {
+          "description": "ONDAPAR AQ INJ",
+          "quantity": 2,
+          "unit_price": 100.25,
+          "amount": 200.5
+        },
+        {
+          "description": "VIMZOTECH INJ",
+          "quantity": 1,
+          "unit_price": 1700.0,
+          "amount": 1700.0
+        },
+        {
+          "description": "NS 100ML",
+          "quantity": 5,
+          "unit_price": 47.0,
+          "amount": 235.0
+        },
+        {
+          "description": "5ML D3 5ML",
+          "quantity": 3,
+          "unit_price": 7.0,
+          "amount": 21.0
+        },
+        {
+          "description": "5ML D5 5ML",
+          "quantity": 3,
+          "unit_price": 10.0,
+          "amount": 30.0
+        },
+        {
+          "description": "10ML D5 10ML",
+          "quantity": 3,
+          "unit_price": 15.0,
+          "amount": 45.0
+        }
+      ],
+      "page_anomalies": [
+        "Page content is a partial duplicate of line items found on Page 1 (starting from the 4th item of Page 1).",
+        "Financial totals (SUB TOTAL, SGST AMT, CGST AMT, NET AMT) are different from Page 1 despite overlapping content.",
+        "Line item 'ONDAPAR AQ INJ' (Batch 'Z501T0092') description differs slightly from 'ONDAPAK INJ' (Batch 'Z5010022481') on Page 1 but has similar values, suggesting potential data entry inconsistency or manipulation."
+      ]
+    },
+    {
+      "page_number": 3,
+      "line_items": [
+        {
+          "description": "EBIDOT 1.5GM (CEFTRIAXONE",
+          "quantity": 3,
+          "unit_price": 1999.0,
+          "amount": 5997.0
+        },
+        {
+          "description": "FLUTECH 2GM (FLUCLOXACIL",
+          "quantity": 2,
+          "unit_price": 1999.0,
+          "amount": 3990.0
+        },
+        {
+          "description": "ZOMEG 130MG(PANT/ATHENI",
+          "quantity": 3,
+          "unit_price": 13.35,
+          "amount": 40.05
+        },
+        {
+          "description": "EMESET 2MG 2ML INJ",
+          "quantity": 3,
+          "unit_price": 13.35,
+          "amount": 40.05
+        },
+        {
+          "description": "ESOMAN 40MG INJ",
+          "quantity": 3,
+          "unit_price": 522.0,
+          "amount": 522.0
+        },
+        {
+          "description": "GABAPIN NT 1ML",
+          "quantity": 2,
+          "unit_price": 12.83,
+          "amount": 25.66
+        },
+        {
+          "description": "EMESET 2MG 2ML INJ",
+          "quantity": 3,
+          "unit_price": 7.0,
+          "amount": 21.0
+        },
+        {
+          "description": "BUSCOGAST INJ 1ML",
+          "quantity": 2,
+          "unit_price": 12.83,
+          "amount": 25.66
+        },
+        {
+          "description": "DYNAPAR AQ INJ",
+          "quantity": 1,
+          "unit_price": 23.0,
+          "amount": 23.0
+        },
+        {
+          "description": "VIMZOTECH INJ",
+          "quantity": 1,
+          "unit_price": 1700.0,
+          "amount": 1700.0
+        },
+        {
+          "description": "ONDAPAK INJ",
+          "quantity": 2,
+          "unit_price": 100.25,
+          "amount": 200.5
+        },
+        {
+          "description": "DOLO 650 TA3 15TAB",
+          "quantity": 2,
+          "unit_price": 100.25,
+          "amount": 200.5
+        },
+        {
+          "description": "NS 100ML",
+          "quantity": 1,
+          "unit_price": 47.0,
+          "amount": 47.0
+        },
+        {
+          "description": "5ML D3 5ML",
+          "quantity": 3,
+          "unit_price": 7.0,
+          "amount": 21.0
+        },
+        {
+          "description": "5ML D5 5ML",
+          "quantity": 3,
+          "unit_price": 10.0,
+          "amount": 30.0
+        },
+        {
+          "description": "10ML D5 10ML",
+          "quantity": 2,
+          "unit_price": 15.0,
+          "amount": 30.0
+        },
+        {
+          "description": "10ML D5 10ML",
+          "quantity": 2,
+          "unit_price": 15.03,
+          "amount": 30.0
+        }
+      ],
+      "page_anomalies": [
+        "Page content is a partial duplicate of line items found on Page 1 (starting from the 4th item of Page 1) and Page 2, but with additional inconsistencies.",
+        "Financial totals (SUB TOTAL, SGST AMT, CGST AMT, NET AMT) are different from both Page 1 and Page 2.",
+        "Calculation error: For 'ESOMAN 40MG INJ' (5th item), Qty is 3, Unit Price is 522.00, but Amount is 522.00 (expected 1566.00).",
+        "Description/Batch ID Mismatch: Item with Batch 'OSS25500' has description 'DOLO 650 TA3 15TAB', whereas on Page 1, this batch ID is linked to 'ACTIVATE SYP 1*200ML'.",
+        "Description/Batch ID Mismatch: Item with Batch 'Z5010022481' has description 'NS 100ML', which is inconsistent with descriptions ('ONDAPAK INJ', 'VIMZOTECH INJ') for this batch ID on Page 1.",
+        "Quantity Change: For '10ML D5 10ML' (16th item), quantity is 2, while on Page 1 and 2, it's 3. The amount is correctly recalculated for the changed quantity.",
+        "Duplicate line item: '10ML D5 10ML' appears twice consecutively with slightly different unit price but same amount."
+      ]
+    }
+  ],
+  "financials": {
+    "subtotal": 19109.2,
+    "tax": 1567.56,
+    "extracted_total": 20677.0,
+    "calculated_total": 46924.91,
+    "is_match": false
+  },
+  "fraud_analysis": {
+    "risk_level": "HIGH",
+    "pixel_anomalies_detected": true,
+    "duplicates_detected": true,
+    "flags": [
+      "Partial duplicate pages with inconsistent financial totals.",
+      "Significant discrepancies in line item calculations (e.g., Qty * Unit Price != Amount).",
+      "Inconsistencies in item descriptions associated with the same Batch IDs across pages.",
+      "Variations in quantities and amounts for identical items across pages.",
+      "Overall poor document quality (scanned image) which can facilitate hidden alterations.",
+      "Multiple distinct NET AMT values across the three pages for what appears to be a single 'Cash Memo'.",
+      "Math mismatch: Extracted 20677.0 vs Calculated 46924.91"
+    ],
+    "reasoning": "The document presents a high risk of fraud due to multiple severe inconsistencies across its three pages. Pages 2 and 3 are not continuations but partial overlaps of Page 1, yet each page displays different subtotal, tax, and net total amounts. Specific anomalies include: 1) A clear calculation error on Page 3 where 'ESOMAN 40MG INJ' (Qty 3, Unit Price 522.00) incorrectly shows an amount of 522.00 instead of 1566.00. 2) Inconsistent descriptions for the same batch IDs (e.g., Batch 'OSS25500' is 'ACTIVATE SYP 1*200ML' on Page 1 but 'DOLO 650 TA3 15TAB' on Page 3; Batch 'Z5010022481' is linked to 'ONDAPAK INJ'/'VIMZOTECH INJ' on Page 1 but 'NS 100ML' on Page 3). 3) A change in quantity for '10ML D5 10ML' from 3 (Page 1/2) to 2 (Page 3) with a corresponding re-calculated amount. The document's scanned nature, coupled with these glaring data inconsistencies and differing financial totals on each page, strongly indicates manipulation or an attempt to present varying versions of the same transaction.",
+    "math_mismatch_detected": true
+  }
+}

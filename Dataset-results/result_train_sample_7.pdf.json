@@ -1,0 +1,82 @@
+{
+  "token_usage": {
+    "prompt_tokens": 1563,
+    "output_tokens": 1230,
+    "total_tokens": 7457,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_7.pdf",
+    "page_count": 1,
+    "document_type": "Invoice/Receipt",
+    "document_title": "CASH BILL",
+    "printed_on": null
+  },
+  "header": {
+    "id": "5365",
+    "date": "2025-10-23",
+    "vendor_name": "SHREE PHARMACY",
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "LOGINAIR MEN TAB",
+          "quantity": 30,
+          "unit_price": 22.2,
+          "amount": 666.0
+        },
+        {
+          "description": "LOGIDRUF LOTION",
+          "quantity": 1,
+          "unit_price": 370.31,
+          "amount": 370.31
+        },
+        {
+          "description": "PIGMENTCARE GA CREAM",
+          "quantity": 1,
+          "unit_price": 550.0,
+          "amount": 550.0
+        },
+        {
+          "description": "Thyrox 25mg",
+          "quantity": 1,
+          "unit_price": 194.39,
+          "amount": 194.39
+        }
+      ],
+      "page_anomalies": [
+        "Two distinct billing sections are present on a single page, appearing to be separate transactions.",
+        "The top section is a printed slip with specific bill details (Bill No. 5365, Date 23-10-2025) and a comprehensive financial breakdown.",
+        "The bottom section is a pre-printed 'CASH BILL' form from 'SHREE PHARMACY' with handwritten entries for date (5.11.2025), item description ('Thyrox 25mg'), quantity, and amount.",
+        "Different fonts and text styles are visible across the page due to the mix of printed and handwritten content from different sources.",
+        "The top section appears to be a fragmented or cut-off receipt.",
+        "The bottom section's date, item details, quantity, and amount are handwritten."
+      ]
+    }
+  ],
+  "financials": {
+    "subtotal": 1780.7,
+    "tax": 0.0,
+    "extracted_total": 1724.39,
+    "calculated_total": 1780.7,
+    "is_match": false
+  },
+  "fraud_analysis": {
+    "risk_level": "HIGH",
+    "pixel_anomalies_detected": true,
+    "duplicates_detected": false,
+    "flags": [
+      "Multiple distinct transactions/bills on a single page from potentially different sources.",
+      "Inconsistent document header information (Bill ID and Date from top slip, Vendor name from bottom form).",
+      "Mixture of printed and handwritten entries within the same document context.",
+      "Fragmented appearance of the top billing section.",
+      "Absence of clear linkages or consolidated totals between the two billing sections, requiring aggregation for output.",
+      "Math mismatch: Extracted 1724.39 vs Calculated 1780.7"
+    ],
+    "reasoning": "The document displays characteristics of a high-risk item due to the presence of two fundamentally distinct billing records on a single page. The top section is a printed slip with a Bill No. (5365), Date (23-10-2025), and a complete set of line items and financial totals (Subtotal: 1586.31, Discount: 56.31, Net Amount: 1530.00). The bottom section is a 'CASH BILL' form from 'SHREE PHARMACY', which includes handwritten entries for its Date (5.11.2025) and a single line item ('Thyrox 25mg' for 194.39). \n\nFor the 'header' section, the Bill ID (5365) and Date (2025-10-23) were extracted from the printed top slip as they were more structured and machine-readable. The 'vendor_name' ('SHREE PHARMACY') and 'document_title' ('CASH BILL') were derived from the pre-printed form at the bottom, as this section explicitly identifies the vendor and type of bill. This mixed sourcing of header information is a significant anomaly.\n\nAll line items from both sections were extracted and combined into a single list. For 'financials', the 'subtotal' represents the sum of all item amounts from both sections (1586.31 + 194.39 = 1780.70). The 'extracted_total' is calculated by subtracting the discount found in the top section (56.31) from this combined subtotal (1780.70 - 56.31 = 1724.39), assuming the discount applies to the aggregated total if they were to be combined. No explicit tax was identified. The disparate nature of these billing segments, their differing formats (printed vs. handwritten on a form), and the need to infer a consolidated total from two unrelated transactions significantly increase the fraud risk level.",
+    "math_mismatch_detected": true
+  }
+}

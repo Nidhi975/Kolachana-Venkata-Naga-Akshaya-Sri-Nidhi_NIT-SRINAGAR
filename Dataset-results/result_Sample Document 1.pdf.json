@@ -1,0 +1,231 @@
+{
+  "token_usage": {
+    "prompt_tokens": 4324,
+    "output_tokens": 2331,
+    "total_tokens": 13479,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "Sample Document 1.pdf",
+    "page_count": 6,
+    "document_type": "Invoice/Receipt/Bill",
+    "document_title": "Sample Document 2",
+    "printed_on": "2025-11-19 12:09 PM"
+  },
+  "header": {
+    "id": null,
+    "date": null,
+    "vendor_name": null,
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "Consultation Charge | DR PREETHI MARY JOSEPH",
+          "quantity": 1.0,
+          "unit_price": 300.0,
+          "amount": 300.0
+        },
+        {
+          "description": "Consultation Charge | DR VIDYA PREMACHANDRAN",
+          "quantity": 1.0,
+          "unit_price": 200.0,
+          "amount": 200.0
+        },
+        {
+          "description": "Doctors Visiting Fee | DR S SALIL KUMAR",
+          "quantity": 1.0,
+          "unit_price": 250.0,
+          "amount": 250.0
+        },
+        {
+          "description": "Doctors Visiting Fee | DR S SALIL KUMAR",
+          "quantity": 4.0,
+          "unit_price": 300.0,
+          "amount": 1200.0
+        },
+        {
+          "description": "RR -2-Room Rent Step Down Icu",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "Room Rent Bystander Room",
+          "quantity": 1.0,
+          "unit_price": 900.0,
+          "amount": 900.0
+        },
+        {
+          "description": "SG201-1-Room Rent Ward A",
+          "quantity": 1.0,
+          "unit_price": 250.0,
+          "amount": 250.0
+        },
+        {
+          "description": "SG204-Room Rent Single Non Ac Room",
+          "quantity": 3.0,
+          "unit_price": 900.0,
+          "amount": 2700.0
+        },
+        {
+          "description": "RR -2-Stepdown-Nursing Charge",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "SG201-1-Nursing Charge",
+          "quantity": 1.0,
+          "unit_price": 400.0,
+          "amount": 400.0
+        },
+        {
+          "description": "SG204-Nursing Charge",
+          "quantity": 3.0,
+          "unit_price": 500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "BT",
+          "quantity": 1.0,
+          "unit_price": 50.0,
+          "amount": 50.0
+        },
+        {
+          "description": "Blood R/E",
+          "quantity": 1.0,
+          "unit_price": 260.0,
+          "amount": 260.0
+        },
+        {
+          "description": "CT",
+          "quantity": 1.0,
+          "unit_price": 90.0,
+          "amount": 90.0
+        },
+        {
+          "description": "Group RH",
+          "quantity": 1.0,
+          "unit_price": 100.0,
+          "amount": 100.0
+        },
+        {
+          "description": "HBsAg (CMIA)",
+          "quantity": 1.0,
+          "unit_price": 150.0,
+          "amount": 150.0
+        },
+        {
+          "description": "HCV (CIMA)",
+          "quantity": 1.0,
+          "unit_price": 360.0,
+          "amount": 360.0
+        },
+        {
+          "description": "HIV 1&2 (CMIA)",
+          "quantity": 1.0,
+          "unit_price": 300.0,
+          "amount": 300.0
+        },
+        {
+          "description": "Liver Function Test(LFT)",
+          "quantity": 1.0,
+          "unit_price": 400.0,
+          "amount": 400.0
+        },
+        {
+          "description": "PT INR",
+          "quantity": 1.0,
+          "unit_price": 150.0,
+          "amount": 150.0
+        },
+        {
+          "description": "Pus C/S",
+          "quantity": 1.0,
+          "unit_price": 230.0,
+          "amount": 230.0
+        },
+        {
+          "description": "RBS",
+          "quantity": 1.0,
+          "unit_price": 30.0,
+          "amount": 30.0
+        },
+        {
+          "description": "RFT",
+          "quantity": 1.0,
+          "unit_price": 290.0,
+          "amount": 290.0
+        },
+        {
+          "description": "TSH",
+          "quantity": 1.0,
+          "unit_price": 190.0,
+          "amount": 190.0
+        },
+        {
+          "description": "Chest PA",
+          "quantity": 1.0,
+          "unit_price": 250.0,
+          "amount": 250.0
+        },
+        {
+          "description": "USG Scan",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "ANAES. CHARGE",
+          "quantity": 1.0,
+          "unit_price": 1650.0,
+          "amount": 1650.0
+        },
+        {
+          "description": "GAS CHARGES",
+          "quantity": 1.0,
+          "unit_price": 660.0,
+          "amount": 660.0
+        },
+        {
+          "description": "OT CHARGES",
+          "quantity": 1.0,
+          "unit_price": 2640.0,
+          "amount": 2640.0
+        },
+        {
+          "description": "SURGEON FEE",
+          "quantity": 1.0,
+          "unit_price": 3300.0,
+          "amount": 3300.0
+        }
+      ],
+      "page_anomalies": []
+    }
+  ],
+  "financials": {
+    "subtotal": 21700.0,
+    "tax": 0.0,
+    "extracted_total": 21700.0,
+    "calculated_total": 21800.0,
+    "is_match": false
+  },
+  "fraud_analysis": {
+    "risk_level": "MEDIUM",
+    "pixel_anomalies_detected": false,
+    "duplicates_detected": false,
+    "flags": [
+      "No explicit invoice ID found.",
+      "No explicit invoice date found; 'Printed On' date (2025-11-19) is document metadata and is in the future relative to the current date, suggesting a sample document context.",
+      "No vendor or recipient information available.",
+      "No explicit subtotal, tax, or total fields found on the visual document; financial totals were calculated by summing the line items.",
+      "Document content (invoice data) is combined with API request/response format data across multiple pages.",
+      "Math mismatch: Extracted 21700.0 vs Calculated 21800.0"
+    ],
+    "reasoning": "The document, labeled as 'Sample Document 2', presents line items in a clear tabular format on page 1. These items are consistently detailed and verified by the structured JSON output provided on pages 2-6. All line item calculations (quantity * unit price = amount) are accurate. There are no exact duplicate line items (items with identical description, quantity, unit price, and amount). The 'Printed On' date in the footer (19/11/2025) is in the future, which is consistent with the document being a generic sample for data extraction purposes rather than a live transaction. The absence of explicit invoice ID, date, vendor, or recipient information is typical for sample documents. No explicit subtotal, tax, or grand total fields are present on the visual document; therefore, these figures were calculated by summing the individual line item amounts. Given the context of a sample document for an API response, the absence of these standard invoice elements and the future date do not indicate fraudulent activity, but rather a simulated scenario.",
+    "math_mismatch_detected": true
+  }
+}

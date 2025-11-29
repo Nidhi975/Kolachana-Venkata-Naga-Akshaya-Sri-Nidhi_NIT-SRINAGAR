@@ -1,0 +1,308 @@
+{
+  "token_usage": {
+    "prompt_tokens": 4080,
+    "output_tokens": 3426,
+    "total_tokens": 12091,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_9.pdf",
+    "page_count": 3,
+    "document_type": "Medical Bill/Statement",
+    "document_title": "Inpatient Consultation Charges",
+    "printed_on": null
+  },
+  "header": {
+    "id": "INT2043376",
+    "date": null,
+    "vendor_name": null,
+    "recipient_name": "Mrs. GOPA DUTTA"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Soumen Kar (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Mr. PROBIR KARMAKAR (ENT)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Soumen Kar (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Nilanchal Chakraborty (CRITICAL CARE)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Bikram Das (INFECTIOUS DISEASES)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Mr. PROBIR KARMAKAR (ENT)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Bikram Das (INFECTIOUS DISEASES)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Sandip Bhattacharya- Dr Vivek Goel (NEPHROLOGY)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Nilanchal Chakraborty (CRITICAL CARE)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        }
+      ],
+      "page_anomalies": []
+    },
+    {
+      "page_number": 2,
+      "line_items": [
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Nilanchal Chakraborty (CRITICAL CARE)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Soumen Kar (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Nilanchal Chakraborty (CRITICAL CARE)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Soumen Kar (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Soumen Kar (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Mr. PROBIR KARMAKAR (ENT)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Nilanchal Chakraborty (CRITICAL CARE)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. VIKASH KUMAR AGARWAL (SURGICAL ONCOLOGY)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Soumen Kar (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        }
+      ],
+      "page_anomalies": []
+    },
+    {
+      "page_number": 3,
+      "line_items": [
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Soumen Kar (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Bikram Das (INFECTIOUS DISEASES)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Akash Roy _Dr. Mahesh Goenka _Gastro Team (GASTROENTEROLOGY)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Nilanchal Chakraborty (CRITICAL CARE)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Soumen Kar (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Mr. PROBIR KARMAKAR (ENT)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Soumen Kar (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Nilanchal Chakraborty (CRITICAL CARE)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. Nilanchal Chakraborty (CRITICAL CARE)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES DR. DEBMALYA BHATTACHARYYA (HAEMATO ONCOLOGY AND BMT)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "IP CONSULTATION CHARGES Dr. RANJAN KAMILYA (ORTHOPAEDICS)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        }
+      ],
+      "page_anomalies": []
+    }
+  ],
+  "financials": {
+    "subtotal": null,
+    "tax": null,
+    "extracted_total": null,
+    "calculated_total": 42000.0,
+    "is_match": null
+  },
+  "fraud_analysis": {
+    "risk_level": "LOW",
+    "pixel_anomalies_detected": false,
+    "duplicates_detected": false,
+    "flags": [],
+    "reasoning": "The document is a partial multi-page statement (pages 4-6 of 90) detailing inpatient consultation charges. No comprehensive financial totals (subtotal, tax, total) are present on these specific pages. All extracted line items consistently show a charge of 1,000.00 for 'IP CONSULTATION CHARGES' performed by various doctors across different medical specialties. The document exhibits a consistent format, fonts, and layout across all three pages, with no visual anomalies, signs of editing, or pixel manipulation detected. While many line items feature the same service type and amount, the presence of distinct doctor names and sequential item numbering (e.g., 13, 14, ... 54) strongly indicates these are records of separate consultation events rather than fraudulent duplication of a single charge.",
+    "math_mismatch_detected": false
+  }
+}

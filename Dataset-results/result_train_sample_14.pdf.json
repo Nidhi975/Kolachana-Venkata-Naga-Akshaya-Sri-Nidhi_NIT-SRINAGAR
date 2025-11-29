@@ -1,0 +1,1273 @@
+{
+  "token_usage": {
+    "prompt_tokens": 1853,
+    "output_tokens": 13318,
+    "total_tokens": 30576,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_14.pdf",
+    "page_count": 6,
+    "document_type": "Invoice/Receipt/Bill",
+    "document_title": "IP FINAL CREDIT BILL - BREAKUP",
+    "printed_on": "2025-11-24 17:39:46"
+  },
+  "header": {
+    "id": "24/11/2025 22:31",
+    "date": "2025-11-24",
+    "vendor_name": null,
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "ICU ROOM RENT CHARGES",
+          "quantity": 3.0,
+          "unit_price": 15000.0,
+          "amount": 45000.0
+        },
+        {
+          "description": "ADMISSION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 100.0,
+          "amount": 100.0
+        },
+        {
+          "description": "DR. JAI NIVAS - NEPHROLOGIST FEES",
+          "quantity": 6.0,
+          "unit_price": 1000.0,
+          "amount": 6000.0
+        },
+        {
+          "description": "DR.GOWTHAM CONSULTATION FEES",
+          "quantity": 6.0,
+          "unit_price": 1000.0,
+          "amount": 6000.0
+        },
+        {
+          "description": "DR.MOHAN KANNAN CONSULTATION FEES",
+          "quantity": 5.0,
+          "unit_price": 1000.0,
+          "amount": 5000.0
+        },
+        {
+          "description": "DR.RAJ BHARATH CONSULTATION FEES",
+          "quantity": 5.0,
+          "unit_price": 1000.0,
+          "amount": 5000.0
+        },
+        {
+          "description": "Mahendra Raghavan consultation fees",
+          "quantity": 5.0,
+          "unit_price": 1000.0,
+          "amount": 5000.0
+        },
+        {
+          "description": "PDS CULTURE & SENSITIVITY",
+          "quantity": 1.0,
+          "unit_price": 700.0,
+          "amount": 700.0
+        },
+        {
+          "description": "Complete Blood Count",
+          "quantity": 1.0,
+          "unit_price": 450.0,
+          "amount": 450.0
+        },
+        {
+          "description": "Renal Function Test (RFT)",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "ABG (ARTERIAL BLOOD GAS ANALYSIS)",
+          "quantity": 1.0,
+          "unit_price": 1100.0,
+          "amount": 1100.0
+        },
+        {
+          "description": "Procalcitonin -PCT",
+          "quantity": 1.0,
+          "unit_price": 2800.0,
+          "amount": 2800.0
+        },
+        {
+          "description": "ELECTROLYTES (NA, K & CL)",
+          "quantity": 1.0,
+          "unit_price": 600.0,
+          "amount": 600.0
+        },
+        {
+          "description": "C-Reactive Protein (CRP)",
+          "quantity": 1.0,
+          "unit_price": 570.0,
+          "amount": 570.0
+        },
+        {
+          "description": "HBA1C (GLYCOSYLATED HEMOGLOBIN)",
+          "quantity": 1.0,
+          "unit_price": 550.0,
+          "amount": 550.0
+        },
+        {
+          "description": "Urine Culture & Sensitivity - Aerobic",
+          "quantity": 1.0,
+          "unit_price": 570.0,
+          "amount": 570.0
+        },
+        {
+          "description": "ABG (ARTERIAL BLOOD GAS ANALYSIS)",
+          "quantity": 1.0,
+          "unit_price": 1100.0,
+          "amount": 1100.0
+        },
+        {
+          "description": "Renal Function Test (RFT)",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "Complete Blood Count",
+          "quantity": 1.0,
+          "unit_price": 450.0,
+          "amount": 450.0
+        },
+        {
+          "description": "Blood Grouping and Typing (ABO and Rh)",
+          "quantity": 1.0,
+          "unit_price": 150.0,
+          "amount": 150.0
+        },
+        {
+          "description": "Complete Blood Count",
+          "quantity": 1.0,
+          "unit_price": 450.0,
+          "amount": 450.0
+        },
+        {
+          "description": "Renal Function Test (RFT)",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "SMEAR STUDY",
+          "quantity": 1.0,
+          "unit_price": 400.0,
+          "amount": 400.0
+        },
+        {
+          "description": "CBC",
+          "quantity": 3.0,
+          "unit_price": 1050.0,
+          "amount": 3150.0
+        },
+        {
+          "description": "C-Reactive Protein (CRP)",
+          "quantity": 1.0,
+          "unit_price": 570.0,
+          "amount": 570.0
+        },
+        {
+          "description": "URIC ACID - SERUM",
+          "quantity": 1.0,
+          "unit_price": 300.0,
+          "amount": 300.0
+        }
+      ],
+      "page_anomalies": [
+        "Page number footer is 'Page No: 92', indicating this is part of a larger document sequence."
+      ]
+    },
+    {
+      "page_number": 2,
+      "line_items": [
+        {
+          "description": "Complete Blood Count",
+          "quantity": 1.0,
+          "unit_price": 450.0,
+          "amount": 450.0
+        },
+        {
+          "description": "Renal Function Test (RFT)",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "CALCIUM - TOTAL",
+          "quantity": 1.0,
+          "unit_price": 350.0,
+          "amount": 350.0
+        },
+        {
+          "description": "Complete Blood Count",
+          "quantity": 1.0,
+          "unit_price": 450.0,
+          "amount": 450.0
+        },
+        {
+          "description": "Renal Function Test (RFT)",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "Complete Blood Count",
+          "quantity": 1.0,
+          "unit_price": 450.0,
+          "amount": 450.0
+        },
+        {
+          "description": "Procalcitonin -PCT",
+          "quantity": 1.0,
+          "unit_price": 2800.0,
+          "amount": 2800.0
+        },
+        {
+          "description": "Renal Function Test (RFT)",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "C-Reactive Protein (CRP)",
+          "quantity": 1.0,
+          "unit_price": 570.0,
+          "amount": 570.0
+        },
+        {
+          "description": "Liver Function Tests (LFT)",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "ABG (ARTERIAL BLOOD GAS ANALYSIS)",
+          "quantity": 1.0,
+          "unit_price": 1100.0,
+          "amount": 1100.0
+        },
+        {
+          "description": "USG ABDOMEN AND PELVIS (PORTABLE)",
+          "quantity": 1.0,
+          "unit_price": 3000.0,
+          "amount": 3000.0
+        },
+        {
+          "description": "CT SCAN CHARGES",
+          "quantity": 1.0,
+          "unit_price": 9500.0,
+          "amount": 9500.0
+        },
+        {
+          "description": "XRAY KUB",
+          "quantity": 1.0,
+          "unit_price": 450.0,
+          "amount": 450.0
+        },
+        {
+          "description": "RYLES TUBE INSERTION",
+          "quantity": 1.0,
+          "unit_price": 5000.0,
+          "amount": 5000.0
+        },
+        {
+          "description": "SURGEON CHARGES",
+          "quantity": 1.0,
+          "unit_price": 38000.0,
+          "amount": 38000.0
+        },
+        {
+          "description": "ASSISTANT SURGEON CHARGES",
+          "quantity": 1.0,
+          "unit_price": 25000.0,
+          "amount": 25000.0
+        },
+        {
+          "description": "ANAESTHETIST CHARGES",
+          "quantity": 1.0,
+          "unit_price": 18000.0,
+          "amount": 18000.0
+        },
+        {
+          "description": "OT CHARGES",
+          "quantity": 1.0,
+          "unit_price": 10500.0,
+          "amount": 10500.0
+        },
+        {
+          "description": "BLOOD TRANSFUSION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 400.0,
+          "amount": 400.0
+        },
+        {
+          "description": "BLOOD TRANSFUSION CHARGES",
+          "quantity": 1.0,
+          "unit_price": 2500.0,
+          "amount": 2500.0
+        },
+        {
+          "description": "MONITOR CHARGES 24HRS",
+          "quantity": 3.0,
+          "unit_price": 1500.0,
+          "amount": 4500.0
+        },
+        {
+          "description": "OXYGEN CHARGES 24 HOURS",
+          "quantity": 1.0,
+          "unit_price": 1000.0,
+          "amount": 1000.0
+        },
+        {
+          "description": "C ARM",
+          "quantity": 1.0,
+          "unit_price": 5000.0,
+          "amount": 5000.0
+        },
+        {
+          "description": "MONITOR CHARGES 24HRS",
+          "quantity": 1.0,
+          "unit_price": 1500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "INFECTION CONTROL",
+          "quantity": 1.0,
+          "unit_price": 500.0,
+          "amount": 500.0
+        },
+        {
+          "description": "IV CANNULATION",
+          "quantity": 1.0,
+          "unit_price": 500.0,
+          "amount": 500.0
+        },
+        {
+          "description": "INSURANCE PROCESSING CHARGES",
+          "quantity": 1.0,
+          "unit_price": 600.0,
+          "amount": 600.0
+        },
+        {
+          "description": "AED",
+          "quantity": 1.0,
+          "unit_price": 500.0,
+          "amount": 500.0
+        },
+        {
+          "description": "PHARMACY CHARGES",
+          "quantity": 1.0,
+          "unit_price": 54736.69,
+          "amount": 54736.69
+        }
+      ],
+      "page_anomalies": [
+        "Page number footer is 'Page No: 93', indicating this is a continuation page."
+      ]
+    },
+    {
+      "page_number": 3,
+      "line_items": [
+        {
+          "description": "Diet Charges",
+          "quantity": 3.0,
+          "unit_price": 170.0,
+          "amount": 510.0
+        },
+        {
+          "description": "ECHO SCREENING",
+          "quantity": 1.0,
+          "unit_price": 3000.0,
+          "amount": 3000.0
+        },
+        {
+          "description": "LAP MONITOR CAMERA LIGHT USED",
+          "quantity": 1.0,
+          "unit_price": 8000.0,
+          "amount": 8000.0
+        },
+        {
+          "description": "UROLOGY LASER MACHINE CHARGES",
+          "quantity": 1.0,
+          "unit_price": 8000.0,
+          "amount": 8000.0
+        },
+        {
+          "description": "MRD CHARGES",
+          "quantity": 1.0,
+          "unit_price": 200.0,
+          "amount": 200.0
+        }
+      ],
+      "page_anomalies": [
+        "Page number footer is 'Page No: 93', which is identical to Page 2, suggesting a potential pagination error or an unusual numbering scheme within the original multipage document. This page also contains the 'Printed On' date/time: '24/11/2025 17:39:46'."
+      ]
+    },
+    {
+      "page_number": 4,
+      "line_items": [
+        {
+          "description": "SN300ML",
+          "quantity": 1.0,
+          "unit_price": 74.89,
+          "amount": 74.89
+        },
+        {
+          "description": "FOLSYS (INJ)TEM(ITEM-1)",
+          "quantity": 1.0,
+          "unit_price": 1017.71,
+          "amount": 1017.71
+        },
+        {
+          "description": "UROBAG",
+          "quantity": 1.0,
+          "unit_price": 381.0,
+          "amount": 381.0
+        },
+        {
+          "description": "CIPRO (OPH) (DRP) (5ML) INJ",
+          "quantity": 1.0,
+          "unit_price": 215.0,
+          "amount": 215.0
+        },
+        {
+          "description": "IV SET R.M.S",
+          "quantity": 1.0,
+          "unit_price": 72.0,
+          "amount": 72.0
+        },
+        {
+          "description": "STERILE WATER 100 MG(I",
+          "quantity": 1.0,
+          "unit_price": 15.32,
+          "amount": 15.32
+        },
+        {
+          "description": "IV SET",
+          "quantity": 1.0,
+          "unit_price": 215.0,
+          "amount": 215.0
+        },
+        {
+          "description": "TUR SET",
+          "quantity": 1.0,
+          "unit_price": 115.0,
+          "amount": 115.0
+        },
+        {
+          "description": "ECOLLECTING 100 NOS (DM)",
+          "quantity": 1.0,
+          "unit_price": 221.5,
+          "amount": 221.5
+        },
+        {
+          "description": "SURGICARE GLOVES 7 SUS",
+          "quantity": 1.0,
+          "unit_price": 97.6,
+          "amount": 97.6
+        },
+        {
+          "description": "S.N.N.N 500 ML (IM)",
+          "quantity": 1.0,
+          "unit_price": 171.0,
+          "amount": 171.0
+        },
+        {
+          "description": "SKUDE SWAB 10X10 (1PLY) 10 PCS",
+          "quantity": 3.0,
+          "unit_price": 110.0,
+          "amount": 330.0
+        },
+        {
+          "description": "HINCPAS 10ML",
+          "quantity": 4.0,
+          "unit_price": 17.5,
+          "amount": 70.0
+        },
+        {
+          "description": "FACE MASK (ROMOMNS) - 3 PLY",
+          "quantity": 1.0,
+          "unit_price": 15.6,
+          "amount": 15.6
+        },
+        {
+          "description": "LIPID PROFILE (ITEM-138)",
+          "quantity": 1.0,
+          "unit_price": 11.5,
+          "amount": 11.5
+        },
+        {
+          "description": "UNDERPAD SINGLE(ITEM1795)",
+          "quantity": 1.0,
+          "unit_price": 19.8,
+          "amount": 19.8
+        },
+        {
+          "description": "OXYGEN MASK ADULT(ITEM239)",
+          "quantity": 1.0,
+          "unit_price": 330.0,
+          "amount": 330.0
+        },
+        {
+          "description": "IV CANNULA 20 G(ITEM610)",
+          "quantity": 1.0,
+          "unit_price": 15.0,
+          "amount": 15.0
+        },
+        {
+          "description": "EXAMINATION GLOVES - WHITE",
+          "quantity": 10.0,
+          "unit_price": 15.0,
+          "amount": 150.0
+        },
+        {
+          "description": "PANTOMED 40MG (PUFAN INJ)",
+          "quantity": 1.0,
+          "unit_price": 115.0,
+          "amount": 115.0
+        },
+        {
+          "description": "NIPRO 2ML (ITEM-148)",
+          "quantity": 2.0,
+          "unit_price": 11.25,
+          "amount": 22.5
+        },
+        {
+          "description": "NS 100ML (ITEM-147)",
+          "quantity": 1.0,
+          "unit_price": 19.8,
+          "amount": 19.8
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2551)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "NS 500ML (B.BRAUN)(PYC(ITEM260)",
+          "quantity": 2.0,
+          "unit_price": 66.39,
+          "amount": 132.78
+        },
+        {
+          "description": "NS 500ML(ITEM-146)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "NIPRO 10ML(ITEM149)",
+          "quantity": 1.0,
+          "unit_price": 75.78,
+          "amount": 75.78
+        },
+        {
+          "description": "NIPRO 10ML(ITEM149) (PATIENT DOWN)",
+          "quantity": 1.0,
+          "unit_price": 75.78,
+          "amount": 75.78
+        },
+        {
+          "description": "NS 500ML(ITEM-427)",
+          "quantity": 2.0,
+          "unit_price": 69.39,
+          "amount": 138.78
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2551)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "EMESET 2ML INJ",
+          "quantity": 2.0,
+          "unit_price": 69.8,
+          "amount": 139.6
+        },
+        {
+          "description": "EASY BATH WIPES - PISK/HYC-ITEM33641",
+          "quantity": 3.0,
+          "unit_price": 110.0,
+          "amount": 330.0
+        },
+        {
+          "description": "NIPRO 10ML(ITEM-149)",
+          "quantity": 1.0,
+          "unit_price": 75.78,
+          "amount": 75.78
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2550)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "PANTOMED 40MG (PUFAN INJ)",
+          "quantity": 3.0,
+          "unit_price": 115.0,
+          "amount": 345.0
+        },
+        {
+          "description": "URONAC(TAB)",
+          "quantity": 1.0,
+          "unit_price": 10.0,
+          "amount": 10.0
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC)(ITEM2550)",
+          "quantity": 4.0,
+          "unit_price": 11.25,
+          "amount": 45.0
+        },
+        {
+          "description": "PANTOMED 40MG (PUFAN INJ)",
+          "quantity": 2.0,
+          "unit_price": 115.0,
+          "amount": 230.0
+        },
+        {
+          "description": "IV SET R.M.S",
+          "quantity": 1.0,
+          "unit_price": 72.0,
+          "amount": 72.0
+        },
+        {
+          "description": "OXYGEN MASK ADULT(ITEM239)",
+          "quantity": 1.0,
+          "unit_price": 330.0,
+          "amount": 330.0
+        },
+        {
+          "description": "ANEMOL 100ML 10M I.V.(NEMO)",
+          "quantity": 2.0,
+          "unit_price": 13.35,
+          "amount": 26.7
+        },
+        {
+          "description": "MAXON 1GM INJ (MEROPENEM)",
+          "quantity": 2.0,
+          "unit_price": 1017.71,
+          "amount": 2035.42
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC)(ITEM2551)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "FLOW REGULATOR",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "EXAMINATION GLOVES - WHITE",
+          "quantity": 20.0,
+          "unit_price": 15.0,
+          "amount": 300.0
+        }
+      ],
+      "page_anomalies": [
+        "Document footer '1 of 3' indicates this is the first page of a sub-document ('IP PHARMACY DIRECT BILLING'). No explicit 'Qty' column; quantity has been inferred from (Amount / Rate)."
+      ]
+    },
+    {
+      "page_number": 5,
+      "line_items": [
+        {
+          "description": "ANEMOL 2ML INJ",
+          "quantity": 2.0,
+          "unit_price": 13.35,
+          "amount": 26.7
+        },
+        {
+          "description": "ANEMOL 100ML 10M I.V.(NEMO)",
+          "quantity": 2.0,
+          "unit_price": 13.35,
+          "amount": 26.7
+        },
+        {
+          "description": "NIPRO 10ML (ITEM149)",
+          "quantity": 1.0,
+          "unit_price": 75.78,
+          "amount": 75.78
+        },
+        {
+          "description": "MEROPSE 500 INJ (MEROPENEM)",
+          "quantity": 2.0,
+          "unit_price": 503.18,
+          "amount": 1006.36
+        },
+        {
+          "description": "EMESET 2ML INJ",
+          "quantity": 2.0,
+          "unit_price": 69.8,
+          "amount": 139.6
+        },
+        {
+          "description": "ANEMOL 100ML 10M I.V.(NEMO)",
+          "quantity": 6.0,
+          "unit_price": 13.35,
+          "amount": 80.1
+        },
+        {
+          "description": "ANEMOL 100ML 10M I.V.(NEMO)",
+          "quantity": 1.0,
+          "unit_price": 13.35,
+          "amount": 13.35
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2551)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "NIPRO 2ML (ITEM-148)",
+          "quantity": 2.0,
+          "unit_price": 11.25,
+          "amount": 22.5
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2551)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2551)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "NIPRO 10ML (ITEM149)",
+          "quantity": 1.0,
+          "unit_price": 75.78,
+          "amount": 75.78
+        },
+        {
+          "description": "NS 500ML (ITEM-147)",
+          "quantity": 2.0,
+          "unit_price": 19.8,
+          "amount": 39.6
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2551)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "UNDERPAD SINGLE(ITEM1795)",
+          "quantity": 1.0,
+          "unit_price": 19.8,
+          "amount": 19.8
+        },
+        {
+          "description": "EMESET 2ML INJ",
+          "quantity": 1.0,
+          "unit_price": 69.8,
+          "amount": 69.8
+        },
+        {
+          "description": "PANTOMED 40MG (PUFAN INJ)",
+          "quantity": 1.0,
+          "unit_price": 115.0,
+          "amount": 115.0
+        },
+        {
+          "description": "ANEMOL 100ML 10M I.V.(NEMO)",
+          "quantity": 1.0,
+          "unit_price": 13.35,
+          "amount": 13.35
+        },
+        {
+          "description": "IV SET R.M.S",
+          "quantity": 1.0,
+          "unit_price": 72.0,
+          "amount": 72.0
+        },
+        {
+          "description": "HIPRO 5ML (ITEM149)",
+          "quantity": 1.0,
+          "unit_price": 21.9,
+          "amount": 21.9
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2550)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "NS 100ML (ONLY DRESING)(ITEM1177)",
+          "quantity": 2.0,
+          "unit_price": 12.0,
+          "amount": 24.0
+        },
+        {
+          "description": "NIPRO 10ML (ITEM149)",
+          "quantity": 1.0,
+          "unit_price": 75.78,
+          "amount": 75.78
+        },
+        {
+          "description": "DEXALAD - 2ML (DEXAMETHASONE)",
+          "quantity": 1.0,
+          "unit_price": 10.6,
+          "amount": 10.6
+        },
+        {
+          "description": "NIPRO 10ML (ITEM149)",
+          "quantity": 1.0,
+          "unit_price": 75.78,
+          "amount": 75.78
+        },
+        {
+          "description": "EMESET 2ML INJ",
+          "quantity": 1.0,
+          "unit_price": 13.35,
+          "amount": 13.35
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2551)",
+          "quantity": 3.0,
+          "unit_price": 11.25,
+          "amount": 33.75
+        },
+        {
+          "description": "PRE OPERATE KIT (PATIENT DOWN)",
+          "quantity": 2.0,
+          "unit_price": 16.85,
+          "amount": 33.7
+        },
+        {
+          "description": "DEXALAD - 2ML (DEXAMETHASONE)",
+          "quantity": 1.0,
+          "unit_price": 10.6,
+          "amount": 10.6
+        },
+        {
+          "description": "SKUDE SWAB 10X10 (1PLY) 10 PCS (HYDROCORTISONE)",
+          "quantity": 1.0,
+          "unit_price": 17.5,
+          "amount": 17.5
+        },
+        {
+          "description": "HINCPAS 10ML INJ",
+          "quantity": 2.0,
+          "unit_price": 17.5,
+          "amount": 35.0
+        },
+        {
+          "description": "EXAMINATION GLOVES - WHITE",
+          "quantity": 5.0,
+          "unit_price": 15.0,
+          "amount": 75.0
+        },
+        {
+          "description": "NIPRO 10ML INJ",
+          "quantity": 1.0,
+          "unit_price": 22.0,
+          "amount": 22.0
+        },
+        {
+          "description": "NIPRO 2ML (ITEM-148) (MEROPENEM)",
+          "quantity": 1.0,
+          "unit_price": 10.6,
+          "amount": 10.6
+        },
+        {
+          "description": "FLOW REGULATOR",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "EASY BATH WIPES - PISK/HYC-ITEM3364",
+          "quantity": 3.0,
+          "unit_price": 110.0,
+          "amount": 330.0
+        },
+        {
+          "description": "NS 100ML (ECOLAC)(PYC)(ITEM1177)",
+          "quantity": 1.0,
+          "unit_price": 12.0,
+          "amount": 12.0
+        },
+        {
+          "description": "OCEAN - 100ML INJ (FLUOCONAZOLE:",
+          "quantity": 1.0,
+          "unit_price": 19.8,
+          "amount": 19.8
+        },
+        {
+          "description": "NS 100ML (ITEM147)",
+          "quantity": 1.0,
+          "unit_price": 19.8,
+          "amount": 19.8
+        },
+        {
+          "description": "AZTRONE 1GM INJ",
+          "quantity": 2.0,
+          "unit_price": 11.95,
+          "amount": 23.9
+        },
+        {
+          "description": "URONAC(TAB)",
+          "quantity": 1.0,
+          "unit_price": 10.0,
+          "amount": 10.0
+        },
+        {
+          "description": "EMESET 2ML INJ",
+          "quantity": 1.0,
+          "unit_price": 69.8,
+          "amount": 69.8
+        },
+        {
+          "description": "ANEMOL 100ML 10M I.V.(NEMO)",
+          "quantity": 1.0,
+          "unit_price": 13.35,
+          "amount": 13.35
+        },
+        {
+          "description": "MEROPSE 500 INJ (MEROPENEM)",
+          "quantity": 1.0,
+          "unit_price": 503.18,
+          "amount": 503.18
+        },
+        {
+          "description": "AYL 2ML INJ",
+          "quantity": 1.0,
+          "unit_price": 5.91,
+          "amount": 5.91
+        },
+        {
+          "description": "ANEMOL 100ML 10M I.V.(NEMO)",
+          "quantity": 1.0,
+          "unit_price": 13.35,
+          "amount": 13.35
+        },
+        {
+          "description": "EMESET 2ML INJ",
+          "quantity": 1.0,
+          "unit_price": 503.18,
+          "amount": 503.18
+        },
+        {
+          "description": "EASY BATH WIPES - PISK/HYC-ITEM3364",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "AZTRONE 1GM INJ",
+          "quantity": 2.0,
+          "unit_price": 12.52,
+          "amount": 25.04
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2550)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "PANTOMED 40MG (PUFAN INJ)",
+          "quantity": 1.0,
+          "unit_price": 115.0,
+          "amount": 115.0
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2551)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "URONAC(TAB)",
+          "quantity": 1.0,
+          "unit_price": 10.0,
+          "amount": 10.0
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2550)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "DEXALAD - 2ML (DEXAMETHASONE)",
+          "quantity": 1.0,
+          "unit_price": 10.6,
+          "amount": 10.6
+        },
+        {
+          "description": "IV CANNULA 20G (ITEM610)",
+          "quantity": 10.0,
+          "unit_price": 15.0,
+          "amount": 150.0
+        },
+        {
+          "description": "EMESET 2ML INJ",
+          "quantity": 1.0,
+          "unit_price": 69.8,
+          "amount": 69.8
+        },
+        {
+          "description": "ONORTHUS TABS",
+          "quantity": 1.0,
+          "unit_price": 79.28,
+          "amount": 79.28
+        },
+        {
+          "description": "ANEMOL 100ML 10M I.V.(NEMO)",
+          "quantity": 2.0,
+          "unit_price": 13.35,
+          "amount": 26.7
+        },
+        {
+          "description": "EASY BATH WIPES - PISK/HYC-ITEM3364",
+          "quantity": 3.0,
+          "unit_price": 110.0,
+          "amount": 330.0
+        },
+        {
+          "description": "URONAC(TAB)",
+          "quantity": 1.0,
+          "unit_price": 10.0,
+          "amount": 10.0
+        },
+        {
+          "description": "UNDERPAD SINGLE(ITEM1795)",
+          "quantity": 1.0,
+          "unit_price": 19.8,
+          "amount": 19.8
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2550)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "NIPRO 10ML (ITEM149)",
+          "quantity": 1.0,
+          "unit_price": 134.0,
+          "amount": 134.0
+        },
+        {
+          "description": "FLOW REGULATOR",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "EXAMINATION GLOVES - WHITE",
+          "quantity": 10.0,
+          "unit_price": 15.0,
+          "amount": 150.0
+        },
+        {
+          "description": "UNDERPAD SINGLE(ITEM1795)",
+          "quantity": 1.0,
+          "unit_price": 19.8,
+          "amount": 19.8
+        }
+      ],
+      "page_anomalies": [
+        "Document footer '2 of 3' indicates this is the second page of the sub-document. No explicit 'Qty' column; quantity has been inferred from (Amount / Rate). Mismatched Rate/Amount descriptions detected for some line items (e.g., 'EMESET 2ML INJ' description with 'MEROPENEM' price for S.No 89)."
+      ]
+    },
+    {
+      "page_number": 6,
+      "line_items": [
+        {
+          "description": "EXAMINATION GLOVES - WHITE",
+          "quantity": 10.0,
+          "unit_price": 15.0,
+          "amount": 150.0
+        },
+        {
+          "description": "UNDERPAD SINGLE(ITEM1795)",
+          "quantity": 1.0,
+          "unit_price": 19.8,
+          "amount": 19.8
+        },
+        {
+          "description": "DEXALAD - 2ML (DEXAMETHASONE)",
+          "quantity": 1.0,
+          "unit_price": 10.6,
+          "amount": 10.6
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2550)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "NIPRO 10ML (ITEM149)",
+          "quantity": 1.0,
+          "unit_price": 75.78,
+          "amount": 75.78
+        },
+        {
+          "description": "IV CANNULA 20G (ITEM610)",
+          "quantity": 1.0,
+          "unit_price": 15.0,
+          "amount": 15.0
+        },
+        {
+          "description": "DEXALAD - 2ML (DEXAMETHASONE)",
+          "quantity": 1.0,
+          "unit_price": 10.6,
+          "amount": 10.6
+        },
+        {
+          "description": "EXAMINATION GLOVES - WHITE",
+          "quantity": 1.0,
+          "unit_price": 15.0,
+          "amount": 15.0
+        },
+        {
+          "description": "URONAC(TAB)",
+          "quantity": 1.0,
+          "unit_price": 10.0,
+          "amount": 10.0
+        },
+        {
+          "description": "ANEMOL 100ML 10M I.V.(NEMO)",
+          "quantity": 1.0,
+          "unit_price": 13.35,
+          "amount": 13.35
+        },
+        {
+          "description": "PANTOMED 40MG (PUFAN INJ)",
+          "quantity": 1.0,
+          "unit_price": 115.0,
+          "amount": 115.0
+        },
+        {
+          "description": "EXAMINATION GLOVES - WHITE",
+          "quantity": 1.0,
+          "unit_price": 15.0,
+          "amount": 15.0
+        },
+        {
+          "description": "UNDERPAD SINGLE(ITEM1795)",
+          "quantity": 1.0,
+          "unit_price": 19.8,
+          "amount": 19.8
+        },
+        {
+          "description": "DEXALAD - 2ML (DEXAMETHASONE)",
+          "quantity": 1.0,
+          "unit_price": 10.6,
+          "amount": 10.6
+        },
+        {
+          "description": "NS 500ML(ECOLAC)(PYC(ITEM2550)",
+          "quantity": 1.0,
+          "unit_price": 11.25,
+          "amount": 11.25
+        },
+        {
+          "description": "NIPRO 10ML (ITEM149)",
+          "quantity": 1.0,
+          "unit_price": 75.78,
+          "amount": 75.78
+        },
+        {
+          "description": "IV CANNULA 20G (ITEM610)",
+          "quantity": 1.0,
+          "unit_price": 15.0,
+          "amount": 15.0
+        },
+        {
+          "description": "DEXALAD - 2ML (DEXAMETHASONE)",
+          "quantity": 1.0,
+          "unit_price": 10.6,
+          "amount": 10.6
+        },
+        {
+          "description": "EXAMINATION GLOVES - WHITE",
+          "quantity": 1.0,
+          "unit_price": 15.0,
+          "amount": 15.0
+        },
+        {
+          "description": "URONAC(TAB)",
+          "quantity": 1.0,
+          "unit_price": 10.0,
+          "amount": 10.0
+        },
+        {
+          "description": "ANEMOL 100ML 10M I.V.(NEMO)",
+          "quantity": 1.0,
+          "unit_price": 13.35,
+          "amount": 13.35
+        },
+        {
+          "description": "PANTOMED 40MG (PUFAN INJ)",
+          "quantity": 1.0,
+          "unit_price": 115.0,
+          "amount": 115.0
+        },
+        {
+          "description": "EXAMINATION GLOVES - WHITE",
+          "quantity": 1.0,
+          "unit_price": 15.0,
+          "amount": 15.0
+        },
+        {
+          "description": "UNDERPAD SINGLE(ITEM1795)",
+          "quantity": 1.0,
+          "unit_price": 19.8,
+          "amount": 19.8
+        }
+      ],
+      "page_anomalies": [
+        "Document footer '3 of 3' indicates this is the third and final page of the sub-document. No explicit 'Qty' column; quantity has been inferred from (Amount / Rate).",
+        "The 'Total Gross Amount' for this pharmacy sub-document is 113702.00, which is different from the 'PHARMACY CHARGES SubTotal' (54736.69) listed in the main document (Page 2)."
+      ]
+    }
+  ],
+  "financials": {
+    "subtotal": 295764.0,
+    "tax": 0.0,
+    "extracted_total": 295764.0,
+    "calculated_total": 315324.86,
+    "is_match": false
+  },
+  "fraud_analysis": {
+    "risk_level": "HIGH",
+    "pixel_anomalies_detected": false,
+    "duplicates_detected": true,
+    "flags": [
+      "Document contains two distinct billing documents, presented consecutively: 'IP FINAL CREDIT BILL - BREAKUP' (Pages 1-3) and 'IP PHARMACY DIRECT BILLING' (Pages 4-6).",
+      "Calculation discrepancy detected: The sum of all individual line items (or their section subtotals) for the 'IP FINAL CREDIT BILL - BREAKUP' document (Pages 1-3) is 295776.69, which does not match the 'Total Gross Amount' of 295764.00 stated on Page 3. The difference is 12.69.",
+      "Pagination anomaly detected: 'Page No: 93' appears in the footer of both Page 2 and Page 3 of the 'IP FINAL CREDIT BILL - BREAKUP' document, indicating an internal numbering inconsistency or error.",
+      "The 'PHARMACY CHARGES SubTotal' listed on Page 2 (54736.69) for the first document is different from the 'Net Amount' of the 'IP PHARMACY DIRECT BILLING' document (113702.00) found on Page 6. This suggests either separate pharmacy bills, a partial charge, or a data inconsistency.",
+      "For the 'IP PHARMACY DIRECT BILLING' document (Pages 4-6), there is no explicit 'Qty' column. Quantity has been inferred for line items by dividing the 'Amount' by the 'Rate'.",
+      "Description/Rate Mismatch: In the 'IP PHARMACY DIRECT BILLING' document, for 'EMESET 2ML INJ' on Page 5 (S.No. 89), the description 'EMESET 2ML INJ' is associated with a Rate and Amount (503.18) that previously matched 'MEROPSE 500 INJ (MEROPENEM)'. This suggests a potential data entry error or misclassification.",
+      "Price inconsistency: For 'NIPRO 10ML (ITEM149)', the 'Rate' varies across different entries in the 'IP PHARMACY DIRECT BILLING' document (e.g., 75.78 vs. 134.00), which might be legitimate for different batches/suppliers but warrants investigation.",
+      "No explicit 'vendor_name' or 'recipient_name' is provided in the headers of either document.",
+      "Math mismatch: Extracted 295764.0 vs Calculated 315324.86"
+    ],
+    "reasoning": "The document exhibits multiple significant anomalies. Firstly, it comprises two distinct billing statements, 'IP FINAL CREDIT BILL - BREAKUP' and 'IP PHARMACY DIRECT BILLING', which complicates a single-document analysis. A critical calculation error was found in the 'IP FINAL CREDIT BILL - BREAKUP' where the sum of all itemized charges (295776.69) does not reconcile with the declared 'Total Gross Amount' (295764.00), resulting in a 12.69 discrepancy. Furthermore, internal pagination issues ('Page No: 93' appearing twice) and inconsistencies between the summary pharmacy charge in the first document and the detailed pharmacy bill's total suggest potential data integrity problems or complex billing practices. The second document also required quantity inference due to a missing column and displayed potential description/rate mismatches and price variations for the same item, which could be legitimate but require further verification.",
+    "math_mismatch_detected": true
+  }
+}

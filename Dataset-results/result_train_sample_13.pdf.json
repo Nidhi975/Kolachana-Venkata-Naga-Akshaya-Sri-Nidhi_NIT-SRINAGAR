@@ -1,0 +1,369 @@
+{
+  "token_usage": {
+    "prompt_tokens": 1847,
+    "output_tokens": 3614,
+    "total_tokens": 16698,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_13.pdf",
+    "page_count": 5,
+    "document_type": "Invoice",
+    "document_title": "IPD Bill (F)",
+    "printed_on": "2023-11-24"
+  },
+  "header": {
+    "id": null,
+    "date": "2025-11-24",
+    "vendor_name": null,
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "Accommodation Charges",
+          "quantity": 1,
+          "unit_price": 3000.0,
+          "amount": 3000.0
+        },
+        {
+          "description": "Accommodation Charges-ICU-G",
+          "quantity": 1,
+          "unit_price": 1500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "Accommodation Charges-ICU-G",
+          "quantity": 1,
+          "unit_price": 1500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "Accommodation Charges-ICU-G",
+          "quantity": 1,
+          "unit_price": 1500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "Accommodation Charges-ICU-G",
+          "quantity": 1,
+          "unit_price": 1500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "Accommodation Charges-ICU-G",
+          "quantity": 1,
+          "unit_price": 1500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "Accommodation Charges-Beds-Pvt. C Type",
+          "quantity": 1,
+          "unit_price": 1900.0,
+          "amount": 1900.0
+        },
+        {
+          "description": "ADMINISTRATIVE MLC CHARGES (HSR) Medical Officer",
+          "quantity": 1,
+          "unit_price": 600.0,
+          "amount": 600.0
+        },
+        {
+          "description": "ANAESTHESIA FEES Dr. Anesthesia & Critical Care",
+          "quantity": 1,
+          "unit_price": 7175.0,
+          "amount": 7175.0
+        },
+        {
+          "description": "ANAESTHESIA FEES Dr. Anesthesia & Critical Care",
+          "quantity": 1,
+          "unit_price": 3438.75,
+          "amount": 3438.75
+        },
+        {
+          "description": "BLOOD BANK CHARGES",
+          "quantity": 1,
+          "unit_price": 2500.0,
+          "amount": 2500.0
+        },
+        {
+          "description": "BLOOD BANK CHARGES",
+          "quantity": 1,
+          "unit_price": 2500.0,
+          "amount": 2500.0
+        },
+        {
+          "description": "BLOOD BANK CHARGES",
+          "quantity": 1,
+          "unit_price": 2500.0,
+          "amount": 2500.0
+        },
+        {
+          "description": "CT SCAN CHARGES",
+          "quantity": 1,
+          "unit_price": 6900.0,
+          "amount": 6900.0
+        },
+        {
+          "description": "CT SCAN CHARGES",
+          "quantity": 1,
+          "unit_price": 10200.0,
+          "amount": 10200.0
+        },
+        {
+          "description": "DRESSING CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 400.0,
+          "amount": 400.0
+        },
+        {
+          "description": "GNR012-Dressing Charges (Other)",
+          "quantity": 1,
+          "unit_price": 400.0,
+          "amount": 400.0
+        },
+        {
+          "description": "DRESSING CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 150.0,
+          "amount": 150.0
+        },
+        {
+          "description": "DRESSING INTRA SHIELD",
+          "quantity": 1,
+          "unit_price": 150.0,
+          "amount": 150.0
+        },
+        {
+          "description": "EMERGENCY CHARGES (CT/MRI)",
+          "quantity": 1,
+          "unit_price": 400.0,
+          "amount": 400.0
+        },
+        {
+          "description": "EMERGENCY CHARGES (CT/MRI)",
+          "quantity": 1,
+          "unit_price": 300.0,
+          "amount": 300.0
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 1797.56,
+          "amount": 1797.56
+        }
+      ],
+      "page_anomalies": []
+    },
+    {
+      "page_number": 2,
+      "line_items": [
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 267.22,
+          "amount": 267.22
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 184.95,
+          "amount": 184.95
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 787.8,
+          "amount": 787.8
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 3937.64,
+          "amount": 3937.64
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 433.32,
+          "amount": 433.32
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 8482.12,
+          "amount": 8482.12
+        }
+      ],
+      "page_anomalies": []
+    },
+    {
+      "page_number": 3,
+      "line_items": [
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 2035.11,
+          "amount": 2035.11
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 416.35,
+          "amount": 416.35
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 1044.13,
+          "amount": 1044.13
+        }
+      ],
+      "page_anomalies": []
+    },
+    {
+      "page_number": 4,
+      "line_items": [
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 119.44,
+          "amount": 119.44
+        },
+        {
+          "description": "IMPLANT TWIN-LOCK-BCP-SCREW",
+          "quantity": 8,
+          "unit_price": 6396.25,
+          "amount": 51170.0
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 803.72,
+          "amount": 803.72
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 40.31,
+          "amount": 40.31
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 3499.24,
+          "amount": 3499.24
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 834.46,
+          "amount": 834.46
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 2858.87,
+          "amount": 2858.87
+        }
+      ],
+      "page_anomalies": [
+        "Discrepancy in line item calculation for 'IMPLANT TWIN-LOCK-BCP-SCREW': Quantity (8) * Rate (51,170.00) does not equal Amount (51,170.00). The Unit Price has been calculated as Amount/Quantity (6396.25)."
+      ]
+    },
+    {
+      "page_number": 5,
+      "line_items": [
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 56.47,
+          "amount": 56.47
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 19.5,
+          "amount": 19.5
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 88.89,
+          "amount": 88.89
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": -1,
+          "unit_price": 475.3,
+          "amount": -475.3
+        },
+        {
+          "description": "IPD CONSUMABLE CHARGES",
+          "quantity": 1,
+          "unit_price": 114.84,
+          "amount": 114.84
+        },
+        {
+          "description": "JINDAL PHARMACY CHARGES",
+          "quantity": 1,
+          "unit_price": 2950.0,
+          "amount": 2950.0
+        },
+        {
+          "description": "JINDAL PHARMACY CHARGES",
+          "quantity": 1,
+          "unit_price": 1069.0,
+          "amount": 1069.0
+        },
+        {
+          "description": "LABORATORY CHARGES",
+          "quantity": 1,
+          "unit_price": 2820.0,
+          "amount": 2820.0
+        },
+        {
+          "description": "LABORATORY CHARGES",
+          "quantity": 1,
+          "unit_price": 45.0,
+          "amount": 45.0
+        },
+        {
+          "description": "LABORATORY CHARGES",
+          "quantity": 1,
+          "unit_price": 60.0,
+          "amount": 60.0
+        },
+        {
+          "description": "LABORATORY CHARGES",
+          "quantity": 1,
+          "unit_price": 105.0,
+          "amount": 105.0
+        }
+      ],
+      "page_anomalies": []
+    }
+  ],
+  "financials": {
+    "subtotal": 136479.39,
+    "tax": 0.0,
+    "extracted_total": 136479.39,
+    "calculated_total": 135579.39,
+    "is_match": false
+  },
+  "fraud_analysis": {
+    "risk_level": "HIGH",
+    "pixel_anomalies_detected": false,
+    "duplicates_detected": false,
+    "flags": [
+      "Document dates are in the future (2025) but the document's own 'printed on' date is in the past (2023).",
+      "Discrepancy in line item calculation on Page 4 for 'IMPLANT TWIN-LOCK-BCP-SCREW'. The 'Rate' column (51,170.00) does not match the calculated unit price (6,396.25) derived from the Quantity (8) and Amount (51,170.00).",
+      "A line item with a negative quantity and amount is present on Page 5 (IPD CONSUMABLE CHARGES, Qty: -1, Amount: -475.30). While potentially legitimate (e.g., a return or adjustment), it warrants verification.",
+      "Math mismatch: Extracted 136479.39 vs Calculated 135579.39"
+    ],
+    "reasoning": "The most significant red flag indicating a high risk of fraud is the inconsistency between the Bill Date (24-Nov-2025) and the document's own 'printed on' date (24-Nov-2023). An invoice for services to be rendered in the future, bearing a past print date, without a clear explanatory context (e.g., a future booking confirmation, not a final bill), is highly suspicious. This could indicate backdating/future-dating manipulation. Further, a significant arithmetic inconsistency was detected in a high-value line item on Page 4, where the displayed 'Rate' does not align with the quantity and total amount. While the negative line item on Page 5 could be a legitimate return, combined with the other issues, it adds to the overall suspicious nature of the document. These discrepancies warrant a thorough investigation.",
+    "math_mismatch_detected": true
+  }
+}

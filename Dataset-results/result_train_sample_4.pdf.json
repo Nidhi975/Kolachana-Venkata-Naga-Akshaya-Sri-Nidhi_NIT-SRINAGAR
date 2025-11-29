@@ -1,0 +1,154 @@
+{
+  "token_usage": {
+    "prompt_tokens": 1026,
+    "output_tokens": 1820,
+    "total_tokens": 10168,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_4.pdf",
+    "page_count": 2,
+    "document_type": "Invoice/Bill",
+    "document_title": "Bill of Supply Inpatient Bill",
+    "printed_on": null
+  },
+  "header": {
+    "id": null,
+    "date": null,
+    "vendor_name": "MRI L & N EMRGENNCY SERVICES",
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "Consultation",
+          "quantity": 1,
+          "unit_price": 2650.0,
+          "amount": 2650.0
+        },
+        {
+          "description": "Drugs",
+          "quantity": 1,
+          "unit_price": 1702.93,
+          "amount": 1702.93
+        },
+        {
+          "description": "Investigations",
+          "quantity": 1,
+          "unit_price": 3000.0,
+          "amount": 3000.0
+        },
+        {
+          "description": "Medical Consumable",
+          "quantity": 1,
+          "unit_price": 4352.12,
+          "amount": 4352.12
+        },
+        {
+          "description": "Other Charges",
+          "quantity": 1,
+          "unit_price": 2475.0,
+          "amount": 2475.0
+        },
+        {
+          "description": "Procedures",
+          "quantity": 1,
+          "unit_price": 700.0,
+          "amount": 700.0
+        },
+        {
+          "description": "Room Rent",
+          "quantity": 1,
+          "unit_price": 4000.0,
+          "amount": 4000.0
+        },
+        {
+          "description": "Surgery",
+          "quantity": 1,
+          "unit_price": 17740.0,
+          "amount": 17740.0
+        }
+      ],
+      "page_anomalies": [
+        "Faint watermark/text (e.g., 'YEARS OF EXCELLENCE') overlapping parts of the document, potentially obscuring information.",
+        "Incomplete header information (no invoice ID, general bill date, or recipient name).",
+        "Multiple discount/deposit line items ('Deposit', 'Discount', 'Total Discount') are present with unclear individual application in the final calculation, contributing to financial ambiguity."
+      ]
+    },
+    {
+      "page_number": 2,
+      "line_items": [
+        {
+          "description": "Nishchal Anand & Lappicopic Surgeon (General Surgery)",
+          "date": "2025-11-08",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "Nishchal Anand & Lappicopic Surgeon (General Surgery)",
+          "date": "2025-11-08",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "D. Consultation*",
+          "date": "2025-11-09",
+          "quantity": 1.0,
+          "unit_price": 250.0,
+          "amount": 250.0
+        },
+        {
+          "description": "Nishchal Anand & Lappicopic Surgeon (General Surgery)",
+          "date": "2025-11-09",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "DIALENTIA FAST 75MG/L ML INJ (Batch No./ Lot No: ... DOE: 30-09-27)",
+          "date": "2025-11-08",
+          "quantity": 2.0,
+          "unit_price": 38.44,
+          "amount": 76.88
+        },
+        {
+          "description": "ROXYME 1.2GM INJ (Batch No./ Lot No: 2000121 DOE: 31-07-27)",
+          "date": "2025-11-08",
+          "quantity": 2.0,
+          "unit_price": 151.31,
+          "amount": 302.62
+        }
+      ],
+      "page_anomalies": [
+        "Faint watermark/text overlapping content, similar to Page 1.",
+        "The 'Qty' column sometimes includes descriptive units (e.g., 'Ampo', 'vial') alongside numerical values, which required extraction of only the numerical part.",
+        "Ambiguous date format (e.g., '8/11/25') has been interpreted as DD/MM/YY based on common regional practices and other date formats within the document (e.g., '30-09-27')."
+      ]
+    }
+  ],
+  "financials": {
+    "subtotal": 36620.05,
+    "tax": null,
+    "extracted_total": 29658.0,
+    "calculated_total": 39649.55,
+    "is_match": false
+  },
+  "fraud_analysis": {
+    "risk_level": "HIGH",
+    "pixel_anomalies_detected": true,
+    "duplicates_detected": false,
+    "flags": [
+      "Visual anomalies: Faint watermarks/text are present across both pages, potentially obscuring details or suggesting the document is a copy or non-original source.",
+      "Incomplete header information: The document lacks a clear unique invoice ID, an overall bill date, and recipient name, which are crucial for traceability and verification.",
+      "Significant calculation discrepancy: The 'Net Amount Paid by Company' (29,658.00) cannot be reconciled with the 'Bill Amount' (36,620.05), 'Deposit' (10,000.00), and 'Total Discount' (3,057.00) provided on the summary page. The expected total (Bill Amount - Deposit - Total Discount = 36620.05 - 10000.00 - 3057.00 = 23563.05) differs from the stated 29,658.00 by 6,094.95. This substantial unexplained variance raises a significant red flag.",
+      "Ambiguous discount application: The document lists both 'Discount' (2,500.00) and 'Total Discount' (3,057.00) without clear explanation of how they apply or which one is included in the final calculation, adding to financial opacity.",
+      "Math mismatch: Extracted 29658.0 vs Calculated 39649.55"
+    ],
+    "reasoning": "The document, presented as a two-page inpatient bill (summary and detailed), contains critical issues warranting a high-risk assessment. Visually, the presence of faint background watermarks or text overlapping key information on both pages raises concerns about document authenticity or potential for data obfuscation. More critically, the financial summary exhibits a significant calculation discrepancy: the 'Net Amount Paid by Company' (29,658.00) cannot be arithmetically derived from the 'Bill Amount' (36,620.05) after applying the stated 'Deposit' (10,000.00) and 'Total Discount' (3,057.00). This unexplained difference of 6,094.95 is a major red flag, indicative of either an error, missing financial context, or potential manipulation. Furthermore, the incomplete header information (lacking invoice ID, overall bill date, and recipient details) and the ambiguous presentation of multiple discount figures ('Discount' vs. 'Total Discount') contribute to a lack of transparency and make independent verification challenging. These combined factors elevate the fraud risk level to HIGH.",
+    "math_mismatch_detected": true
+  }
+}

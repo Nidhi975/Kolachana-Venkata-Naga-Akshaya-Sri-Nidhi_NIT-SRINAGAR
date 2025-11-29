@@ -1,0 +1,799 @@
+{
+  "token_usage": {
+    "prompt_tokens": 1880,
+    "output_tokens": 7316,
+    "total_tokens": 30817,
+    "model": "gemini-2.5-flash"
+  },
+  "file_info": {
+    "file_name": "train_sample_15.pdf",
+    "page_count": 10,
+    "document_type": "Invoice/Receipt/Bill",
+    "document_title": "IP BILL (Provisional)",
+    "printed_on": "2025-11-24 13:52"
+  },
+  "header": {
+    "id": null,
+    "date": "2025-11-24",
+    "vendor_name": null,
+    "recipient_name": null
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "line_items": [
+        {
+          "description": "ADMISSION CHARGE",
+          "quantity": 1.0,
+          "unit_price": 250.0,
+          "amount": 250.0
+        },
+        {
+          "description": "NICU (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 4800.0,
+          "amount": 4800.0
+        },
+        {
+          "description": "NICU (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 4800.0,
+          "amount": 4800.0
+        },
+        {
+          "description": "NICU (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 4800.0,
+          "amount": 4800.0
+        },
+        {
+          "description": "NICU (14/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 4800.0,
+          "amount": 4800.0
+        },
+        {
+          "description": "NICU (15/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 4800.0,
+          "amount": 4800.0
+        },
+        {
+          "description": "NICU (16/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 4800.0,
+          "amount": 4800.0
+        },
+        {
+          "description": "NICU (17/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 4800.0,
+          "amount": 4800.0
+        },
+        {
+          "description": "NICU (18/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 4800.0,
+          "amount": 4800.0
+        },
+        {
+          "description": "NICU (19/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 4800.0,
+          "amount": 4800.0
+        },
+        {
+          "description": "NICU (20/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 4800.0,
+          "amount": 4800.0
+        },
+        {
+          "description": "NICU (21/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 4800.0,
+          "amount": 4800.0
+        },
+        {
+          "description": "PRIVATE WARD (22/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 3200.0,
+          "amount": 3200.0
+        },
+        {
+          "description": "PRIVATE WARD (23/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 3200.0,
+          "amount": 3200.0
+        },
+        {
+          "description": "PRIVATE WARD (24/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 3200.0,
+          "amount": 3200.0
+        },
+        {
+          "description": "NURSING CHARGES - NICU (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "description": "NURSING CHARGES - NICU (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "description": "NURSING CHARGES - NICU (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "description": "NURSING CHARGES - NICU (14/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "description": "NURSING CHARGES - NICU (15/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "description": "NURSING CHARGES - NICU (16/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1200.0,
+          "amount": 1200.0
+        }
+      ],
+      "page_anomalies": [
+        "Document title 'IP BILL (Provisional)' is visually absent at the top of the page."
+      ]
+    },
+    {
+      "page_number": 2,
+      "line_items": [
+        {
+          "description": "NURSING CHARGES - NICU (17/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "description": "NURSING CHARGES - NICU (18/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "description": "NURSING CHARGES - NICU (19/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "description": "NURSING CHARGES - NICU (20/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "description": "NURSING CHARGES - NICU (21/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "description": "NURSING CHARGES - PRIVATE WARD (22/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "NURSING CHARGES - PRIVATE WARD (23/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "NURSING CHARGES - PRIVATE WARD (24/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "IV CANNULISATION (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 250.0,
+          "amount": 250.0
+        },
+        {
+          "description": "RYLES TUBE INSERTION (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 300.0,
+          "amount": 300.0
+        },
+        {
+          "description": "Umbilical Line/PICC Insertion (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 6690.0,
+          "amount": 6690.0
+        },
+        {
+          "description": "RYLES TUBE INSERTION (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 300.0,
+          "amount": 300.0
+        },
+        {
+          "description": "IV CANNULISATION (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 250.0,
+          "amount": 250.0
+        },
+        {
+          "description": "RYLES TUBE INSERTION (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 300.0,
+          "amount": 300.0
+        },
+        {
+          "description": "IV CANNULISATION (18/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 250.0,
+          "amount": 250.0
+        },
+        {
+          "description": "Double Occupancy / Attender Stay (19/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 2500.0,
+          "amount": 2500.0
+        },
+        {
+          "description": "Double Occupancy / Attender Stay (19/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 2500.0,
+          "amount": 2500.0
+        },
+        {
+          "description": "IV CANNULISATION (20/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 250.0,
+          "amount": 250.0
+        },
+        {
+          "description": "Double Occupancy / Attender Stay (20/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 2500.0,
+          "amount": 2500.0
+        },
+        {
+          "description": "BLOOD GROUPING ABO (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 180.0,
+          "amount": 180.0
+        },
+        {
+          "description": "COMPLETE BLOOD COUNT(CBC) (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 360.0,
+          "amount": 360.0
+        },
+        {
+          "description": "VENOUS BLOOD GAS (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1320.0,
+          "amount": 1320.0
+        }
+      ],
+      "page_anomalies": []
+    },
+    {
+      "page_number": 3,
+      "line_items": [
+        {
+          "description": "BILIRUBIN DIRECT - SERUM (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 240.0,
+          "amount": 240.0
+        },
+        {
+          "description": "BILIRUBIN TOTAL - SERUM (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 240.0,
+          "amount": 240.0
+        },
+        {
+          "description": "CALCIUM - SERUM (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 240.0,
+          "amount": 240.0
+        },
+        {
+          "description": "CRP; C-REACTIVE PROTEIN (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 600.0,
+          "amount": 600.0
+        },
+        {
+          "description": "RENAL FUNCTION TEST (RFT) (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 720.0,
+          "amount": 720.0
+        },
+        {
+          "description": "BLOOD CULTURE AND SENSITIVITY (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1080.0,
+          "amount": 1080.0
+        },
+        {
+          "description": "THYROXINE FREE (T4) (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 600.0,
+          "amount": 600.0
+        },
+        {
+          "description": "THYROID STIMULATION HORMONE (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 300.0,
+          "amount": 300.0
+        },
+        {
+          "description": "COMPLETE BLOOD COUNT(CBC) (15/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 360.0,
+          "amount": 360.0
+        },
+        {
+          "description": "CRP; C-REACTIVE PROTEIN (15/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 600.0,
+          "amount": 600.0
+        },
+        {
+          "description": "URINE FOR KOH MOUNT (15/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 600.0,
+          "amount": 600.0
+        },
+        {
+          "description": "CRP; C-REACTIVE PROTEIN (16/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 600.0,
+          "amount": 600.0
+        },
+        {
+          "description": "PLATELET COUNT - BLOOD (16/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 240.0,
+          "amount": 240.0
+        },
+        {
+          "description": "OCCULT BLOOD; STOOL (17/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 120.0,
+          "amount": 120.0
+        },
+        {
+          "description": "COMPLETE BLOOD COUNT(CBC) (18/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 360.0,
+          "amount": 360.0
+        },
+        {
+          "description": "CRP; C-REACTIVE PROTEIN (18/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 600.0,
+          "amount": 600.0
+        },
+        {
+          "description": "CRP; C-REACTIVE PROTEIN (20/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 600.0,
+          "amount": 600.0
+        },
+        {
+          "description": "PLATELET COUNT - BLOOD (20/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 240.0,
+          "amount": 240.0
+        },
+        {
+          "description": "COMPLETE BLOOD COUNT(CBC) (24/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 360.0,
+          "amount": 360.0
+        },
+        {
+          "description": "CRP; C-REACTIVE PROTEIN (24/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 600.0,
+          "amount": 600.0
+        },
+        {
+          "description": "X-RAY CHEST AP (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 480.0,
+          "amount": 480.0
+        },
+        {
+          "description": "X-RAY CHEST AP (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 480.0,
+          "amount": 480.0
+        },
+        {
+          "description": "2D ECHO CARDIOGRAPHY (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1800.0,
+          "amount": 1800.0
+        },
+        {
+          "description": "X-RAY CHEST AP (15/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 480.0,
+          "amount": 480.0
+        }
+      ],
+      "page_anomalies": []
+    },
+    {
+      "page_number": 4,
+      "line_items": [
+        {
+          "description": "2D ECHO SCREENING (20/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 1500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "PAEDIATRICS - IP DOCTOR VISIT (11/11/2025)",
+          "quantity": 18.0,
+          "unit_price": 1500.0,
+          "amount": 27000.0
+        },
+        {
+          "description": "PAEDIATRICS - IP DOCTOR VISIT (22/11/2025)",
+          "quantity": 8.0,
+          "unit_price": 650.0,
+          "amount": 5200.0
+        },
+        {
+          "description": "Audiology Consultation (23/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 650.0,
+          "amount": 650.0
+        },
+        {
+          "description": "INSURANCE PROCESSING FEES (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 750.0,
+          "amount": 750.0
+        },
+        {
+          "description": "DIETARY SERVICES - NICU (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 500.0,
+          "amount": 500.0
+        },
+        {
+          "description": "INTUBATION (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 2500.0,
+          "amount": 2500.0
+        },
+        {
+          "description": "VENTILATOR PER DAY (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 4500.0,
+          "amount": 4500.0
+        },
+        {
+          "description": "GRBS (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "MONITOR CHARGES (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "SYRINGE PUMP (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 450.0,
+          "amount": 450.0
+        },
+        {
+          "description": "GRBS (11/11/2025)",
+          "quantity": 2.0,
+          "unit_price": 110.0,
+          "amount": 220.0
+        },
+        {
+          "description": "OXYGEN PER DAY (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 2400.0,
+          "amount": 2400.0
+        },
+        {
+          "description": "GRBS (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "GRBS (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "GRBS (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "Critical Care Consumables (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 650.0,
+          "amount": 650.0
+        },
+        {
+          "description": "Infection Preventive Measures (IPM) (11/11/2025)",
+          "quantity": 11.0,
+          "unit_price": 500.0,
+          "amount": 5500.0
+        },
+        {
+          "description": "INTENSIVIST CHARGES (11/11/2025)",
+          "quantity": 22.0,
+          "unit_price": 750.0,
+          "amount": 16500.0
+        },
+        {
+          "description": "GRBS (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "GRBS (11/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "DIETARY SERVICES - NICU (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 500.0,
+          "amount": 500.0
+        }
+      ],
+      "page_anomalies": []
+    },
+    {
+      "page_number": 5,
+      "line_items": [
+        {
+          "description": "MONITOR CHARGES (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "SYRINGE PUMP (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 450.0,
+          "amount": 450.0
+        },
+        {
+          "description": "GRBS (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "NEBULISATION (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 300.0,
+          "amount": 300.0
+        },
+        {
+          "description": "OXYGEN PER DAY (12/11/2025)",
+          "quantity": 2.0,
+          "unit_price": 1200.0,
+          "amount": 2400.0
+        },
+        {
+          "description": "INITIAL ASSESSMENT CHARGES (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 500.0,
+          "amount": 500.0
+        },
+        {
+          "description": "LINER CHARGES (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 120.0,
+          "amount": 120.0
+        },
+        {
+          "description": "Ventilator Initiation (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 2100.0,
+          "amount": 2100.0
+        },
+        {
+          "description": "GRBS (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "NEBULISATION (12/11/2025)",
+          "quantity": 2.0,
+          "unit_price": 150.0,
+          "amount": 300.0
+        },
+        {
+          "description": "GRBS (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "NEBULISATION (12/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 150.0,
+          "amount": 150.0
+        },
+        {
+          "description": "DIETARY SERVICES - NICU (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 500.0,
+          "amount": 500.0
+        },
+        {
+          "description": "GRBS (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "NEBULISATION (13/11/2025)",
+          "quantity": 4.0,
+          "unit_price": 150.0,
+          "amount": 600.0
+        },
+        {
+          "description": "MONITOR CHARGES (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        },
+        {
+          "description": "OXYGEN PER DAY (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 2400.0,
+          "amount": 2400.0
+        },
+        {
+          "description": "SYRINGE PUMP (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 450.0,
+          "amount": 450.0
+        },
+        {
+          "description": "GRBS (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "NEBULISATION (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 150.0,
+          "amount": 150.0
+        },
+        {
+          "description": "GRBS (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "GRBS (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 110.0,
+          "amount": 110.0
+        },
+        {
+          "description": "NEBULISATION (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 150.0,
+          "amount": 150.0
+        },
+        {
+          "description": "Non-invasive ventilation (NIV) (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 4500.0,
+          "amount": 4500.0
+        },
+        {
+          "description": "NEBULISATION (13/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 150.0,
+          "amount": 150.0
+        },
+        {
+          "description": "MONITOR CHARGES (14/11/2025)",
+          "quantity": 1.0,
+          "unit_price": 800.0,
+          "amount": 800.0
+        }
+      ],
+      "page_anomalies": []
+    },
+    {
+      "page_number": 6,
+      "line_items": [],
+      "page_anomalies": [
+        "No visual data provided for this page."
+      ]
+    },
+    {
+      "page_number": 7,
+      "line_items": [],
+      "page_anomalies": [
+        "No visual data provided for this page."
+      ]
+    },
+    {
+      "page_number": 8,
+      "line_items": [],
+      "page_anomalies": [
+        "No visual data provided for this page."
+      ]
+    },
+    {
+      "page_number": 9,
+      "line_items": [],
+      "page_anomalies": [
+        "No visual data provided for this page."
+      ]
+    },
+    {
+      "page_number": 10,
+      "line_items": [],
+      "page_anomalies": [
+        "No visual data provided for this page."
+      ]
+    }
+  ],
+  "financials": {
+    "subtotal": 200690.0,
+    "tax": 0.0,
+    "extracted_total": 200690.0,
+    "calculated_total": 197410.0,
+    "is_match": false
+  },
+  "fraud_analysis": {
+    "risk_level": "MEDIUM",
+    "pixel_anomalies_detected": false,
+    "duplicates_detected": false,
+    "flags": [
+      "Missing header fields (Bill No, Patient Name, Vendor Name)",
+      "Document title missing on page 1",
+      "Math mismatch: Extracted 200690.0 vs Calculated 197410.0"
+    ],
+    "reasoning": "The document exhibits consistent formatting, fonts, and data presentation across all provided pages (1-5). No signs of pixel-level tampering or intentional alteration were detected. The repetition of services (e.g., daily ward charges, nursing charges, various GRBS) appears to be standard for a detailed hospital bill rather than an anomaly or duplication of items. However, several key header fields such as 'Bill No', 'Patient Name', and 'Vendor Name' are left blank, which could indicate incomplete data. The document title 'IP BILL (Provisional)' is present from page 2 onwards but is visually absent from page 1, which is a minor formatting inconsistency. The extracted_total represents the sum of all line item amounts found on the visible pages (1-5). As the document footer indicates 'Page X of 21', this total is not necessarily the final amount for the entire bill, as subsequent pages were not provided for analysis.",
+    "math_mismatch_detected": true
+  }
+}
