@@ -115,7 +115,7 @@ Step 5: Returns clean JSON with:
 **Step 1: Download the code**
 ```bash
 git clone <your-github-link>
-cd akka
+cd foldername
 ```
 
 **Step 2: Install Python packages**
@@ -634,6 +634,7 @@ DEBUG_MODE=true
 Add this to your `.env` file to see more details.
 
 ---
+
 
 
 
