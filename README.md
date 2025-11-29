@@ -147,7 +147,7 @@ sudo apt-get install poppler-utils
 
 Make a copy of the settings file:
 ```bash
-cp .env.template .env
+cp env.txt .env
 ```
 
 Open `.env` in a text editor and add your key (need at least one):
@@ -634,6 +634,7 @@ DEBUG_MODE=true
 Add this to your `.env` file to see more details.
 
 ---
+
 
 
 
